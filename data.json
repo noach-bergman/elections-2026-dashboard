@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-27T07:52:00+02:00",
-  "lastUpdatedLabel": "27.10.2026, 07:52 שעון ישראל",
+  "lastUpdated": "2026-10-27T08:30:00+02:00",
+  "lastUpdatedLabel": "27.10.2026, 08:30 שעון ישראל",
   "election": {
     "date": "2026-10-27",
     "dateLabel": "יום שלישי, 27 באוקטובר 2026 (ט\"ז בחשוון תשפ\"ז)",
@@ -20,8 +20,8 @@
       "status": "done"
     },
     {
-      "time": "11:00–23:00",
-      "title": "אחוז הצבעה ארצי רשמי כל שעתיים",
+      "time": "10:00–20:00",
+      "title": "אחוז הצבעה ארצי רשמי כל שעתיים (העדכון הראשון צפוי בסביבות 10:00–11:00)",
       "status": "pending"
     },
     {
@@ -46,32 +46,32 @@
     "final2022Source": "votes26.com",
     "hours": [
       {
-        "time": "11:00",
+        "time": "10:00",
         "pct2026": null,
         "pct2022": null
       },
       {
-        "time": "13:00",
+        "time": "12:00",
         "pct2026": null,
         "pct2022": null
       },
       {
-        "time": "15:00",
+        "time": "14:00",
         "pct2026": null,
         "pct2022": null
       },
       {
-        "time": "17:00",
+        "time": "16:00",
         "pct2026": null,
         "pct2022": null
       },
       {
-        "time": "19:00",
+        "time": "18:00",
         "pct2026": null,
         "pct2022": null
       },
       {
-        "time": "21:00",
+        "time": "20:00",
         "pct2026": null,
         "pct2022": null
       },
@@ -503,6 +503,42 @@
     }
   ],
   "news": [
+    {
+      "date": "27.10",
+      "title": "ועדת הבחירות: יותר מ-95% מהקלפיות נפתחו, ייתכנו עיכובים נקודתיים",
+      "site": "ynet",
+      "url": "https://www.ynet.co.il/news/article/h13vihanmx"
+    },
+    {
+      "date": "27.10",
+      "title": "בחירות 2026: הקלפיות נפתחו – עדכונים שוטפים מיום הבחירות",
+      "site": "וואלה",
+      "url": "https://www.walla.co.il/news/politics/383958985"
+    },
+    {
+      "date": "27.10",
+      "title": "מהדורת יום הבחירות: \"ביטחון מעל לכל\" – נתניהו, איזנקוט ובנט",
+      "site": "ישראל היום",
+      "url": "https://digital-edition.israelhayom.co.il/israel-hayom/20261027"
+    },
+    {
+      "date": "27.10",
+      "title": "Election Day in Israel: Polls open – live",
+      "site": "Haaretz",
+      "url": "https://www.haaretz.com/israel-news/elections/2026-10-27/ty-article-live/israelis-ready-to-cast-their-vote-in-an-election-that-could-end-netanyahus-rule/000001a1-7afd-d5cb-a9ab-7ffd495d0000"
+    },
+    {
+      "date": "27.10",
+      "title": "Voters start casting ballots as polling stations open across Israel",
+      "site": "Times of Israel",
+      "url": "https://www.timesofisrael.com/liveblog_entry/voters-start-casting-ballots-as-polling-stations-open-across-israel/"
+    },
+    {
+      "date": "26.10",
+      "title": "מהכותל ועד הקלפיות: כך ייראה יום הבחירות של ראשי המפלגות",
+      "site": "כל רגע",
+      "url": "https://www.kore.co.il/viewArticle/224035"
+    },
     {
       "date": "27.10",
       "title": "ישראל בוחרת: בעוד כשעה ייפתחו הקלפיות ברחבי הארץ",
