@@ -252,7 +252,7 @@
   },
   {
    "id": "exit_n12",
-   "label": "מדגם חדשות 12 (מנו גבע, מדגם)",
+   "label": "מדגם חדשות 12",
    "date": "27.10 22:00",
    "source": "https://x.com/N12News/status/2115172914874208427",
    "seats": {
@@ -294,7 +294,7 @@
   },
   {
    "id": "exit_c14",
-   "label": "מדגם חדשות 14 (Data Next)",
+   "label": "מדגם חדשות 14",
    "date": "27.10 22:00",
    "source": "https://x.com/C14_news/status/2115173495042928867",
    "seats": {
@@ -577,7 +577,7 @@
    "source": "https://x.com/kann_news/status/2115175394223571117"
   },
   {
-   "outlet": "חדשות 12 (מנו גבע, מדגם)",
+   "outlet": "חדשות 12",
    "seats": {
     "likud": 24,
     "shas": 8,
@@ -623,7 +623,7 @@
    "source": "https://x.com/newsisrael13/status/2115172146460930401"
   },
   {
-   "outlet": "חדשות 14 (Data Next)",
+   "outlet": "חדשות 14",
    "seats": {
     "likud": 30,
     "shas": 9,
