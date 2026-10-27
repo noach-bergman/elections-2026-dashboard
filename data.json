@@ -1,951 +1,1011 @@
 {
-  "lastUpdated": "2026-10-28T01:22:00+02:00",
-  "lastUpdatedLabel": "28.10.2026, 01:22 שעון ישראל",
-  "election": {
-    "date": "2026-10-27",
-    "dateLabel": "יום שלישי, 27 באוקטובר 2026 (ט\"ז בחשוון תשפ\"ז)",
-    "pollsOpen": "2026-10-27T07:00:00+03:00",
-    "pollsClose": "2026-10-27T22:00:00+03:00",
-    "eligibleVoters": 7331981,
-    "pollingStations": 12018,
-    "lists": 36,
-    "threshold": "3.25%",
-    "finalResultsBy": "4.11.2026",
-    "notes": "רוב הקלפיות 07:00–22:00; יישובים קטנים, בתי חולים, בתי סוהר ובתי אבות 08:00–20:00. פרסום סקרים חדשים אסור מ-24.10 ועד 22:00 ביום הבחירות."
+ "lastUpdated": "2026-10-28T01:47:00+02:00",
+ "lastUpdatedLabel": "28.10.2026, 01:47 שעון ישראל",
+ "election": {
+  "date": "2026-10-27",
+  "dateLabel": "יום שלישי, 27 באוקטובר 2026 (ט\"ז בחשוון תשפ\"ז)",
+  "pollsOpen": "2026-10-27T07:00:00+03:00",
+  "pollsClose": "2026-10-27T22:00:00+03:00",
+  "eligibleVoters": 7331981,
+  "pollingStations": 12018,
+  "lists": 36,
+  "threshold": "3.25%",
+  "finalResultsBy": "4.11.2026",
+  "notes": "רוב הקלפיות 07:00–22:00; יישובים קטנים, בתי חולים, בתי סוהר ובתי אבות 08:00–20:00. פרסום סקרים חדשים אסור מ-24.10 ועד 22:00 ביום הבחירות."
+ },
+ "schedule": [
+  {
+   "time": "07:00",
+   "title": "פתיחת רוב הקלפיות",
+   "status": "done"
   },
-  "schedule": [
-    {
-      "time": "07:00",
-      "title": "פתיחת רוב הקלפיות",
-      "status": "done"
-    },
-    {
-      "time": "10:00–20:00",
-      "title": "אחוז הצבעה ארצי רשמי (ועדת הבחירות; מסיבת עיתונאים ראשונה ב-10:50, ולאחר מכן עדכונים כל שעתיים)",
-      "status": "done"
-    },
-    {
-      "time": "22:00",
-      "title": "סגירת הקלפיות ופרסום מדגמים",
-      "status": "done"
-    },
-    {
-      "time": "ליל הבחירות",
-      "title": "תוצאות אמת מהקלפיות: הספירה החלה; לפי ועדת הבחירות (כפי שפורסם בערוץ כנסת 99) נכון ל-01:00 נספרו 14,386 קולות כשרים בלבד (כ-78 קלפיות), שיעור זניח מכלל המצביעים",
-      "status": "pending"
-    },
-    {
-      "time": "עד 4.11",
-      "title": "פרסום התוצאות הסופיות ברשומות",
-      "status": "pending"
-    }
-  ],
-  "turnout": {
-    "source": "ועדת הבחירות המרכזית",
-    "final2022": 70.63,
-    "final2022Source": "votes26.com",
-    "hours": [
-      {
-        "time": "10:00",
-        "pct2026": 16.68,
-        "pct2022": 15.9
-      },
-      {
-        "time": "12:00",
-        "pct2026": 31.5,
-        "pct2022": 28.4
-      },
-      {
-        "time": "14:00",
-        "pct2026": 44.9,
-        "pct2022": 38.9
-      },
-      {
-        "time": "16:00",
-        "pct2026": 55.7,
-        "pct2022": 47.5
-      },
-      {
-        "time": "18:00",
-        "pct2026": 66.7,
-        "pct2022": 57.7
-      },
-      {
-        "time": "20:00",
-        "pct2026": 74.3,
-        "pct2022": 66.3
-      },
-      {
-        "time": "סופי",
-        "pct2026": 77.7,
-        "pct2022": 70.63
-      }
-    ],
-    "hours2022Source": "gov.il – אחוז ההצבעה המצטבר בחתך שעות, הכנסת ה-25",
-    "finalNote": "אחוז ההצבעה עד סגירת הקלפיות ב-22:00: 77.7% (ועדת הבחירות, כפי שדווח בערוץ 14, מעריב ו-i24NEWS ב-23:10–23:13), עלייה של 7.1 נקודות לעומת 2022."
+  {
+   "time": "10:00–20:00",
+   "title": "אחוז הצבעה ארצי רשמי (ועדת הבחירות; מסיבת עיתונאים ראשונה ב-10:50, ולאחר מכן עדכונים כל שעתיים)",
+   "status": "done"
   },
-  "parties": [
-    {
-      "key": "likud",
-      "name": "הליכוד",
-      "leader": "בנימין נתניהו",
-      "bloc": "coal",
-      "color": "#1f5fbf",
-      "note": "רץ במיזוג עם תקווה חדשה של גדעון סער"
-    },
-    {
-      "key": "shas",
-      "name": "ש\"ס",
-      "leader": "אריה דרעי",
-      "bloc": "coal",
-      "color": "#111111",
-      "note": "הסכם עודפים עם יהדות התורה"
-    },
-    {
-      "key": "otzma",
-      "name": "עוצמה יהודית",
-      "leader": "איתמר בן גביר",
-      "bloc": "coal",
-      "color": "#e8a200",
-      "note": "ללא הסכם עודפים"
-    },
-    {
-      "key": "utj",
-      "name": "יהדות התורה",
-      "leader": "יצחק גולדקנופף",
-      "bloc": "coal",
-      "color": "#5a5a5a",
-      "note": "הסכם עודפים עם ש\"ס"
-    },
-    {
-      "key": "rz",
-      "name": "הציונות הדתית וזהות",
-      "leader": "בצלאל סמוטריץ'",
-      "bloc": "coal",
-      "color": "#7a4a1f",
-      "note": "עודפים עם הליכוד"
-    },
-    {
-      "key": "amcha",
-      "name": "עמך ישראל",
-      "leader": "עופר וינטר",
-      "bloc": "coal",
-      "color": "#b5651d",
-      "note": "רשימה חדשה; סביב אחוז החסימה"
-    },
-    {
-      "key": "yashar",
-      "name": "ישר!",
-      "leader": "גדי איזנקוט",
-      "bloc": "opp",
-      "color": "#00a3c4",
-      "note": "רשימה חדשה; עודפים עם הדמוקרטים"
-    },
-    {
-      "key": "together",
-      "name": "ביחד",
-      "leader": "נפתלי בנט",
-      "bloc": "opp",
-      "color": "#6a3fbf",
-      "note": "ריצה משותפת של בנט 2026 ויש עתיד"
-    },
-    {
-      "key": "dem",
-      "name": "הדמוקרטים",
-      "leader": "יאיר גולן",
-      "bloc": "opp",
-      "color": "#d6262b",
-      "note": "עודפים עם ישר!"
-    },
-    {
-      "key": "yb",
-      "name": "ישראל ביתנו",
-      "leader": "אביגדור ליברמן",
-      "bloc": "opp",
-      "color": "#2b8a3e",
-      "note": "עודפים עם ביחד"
-    },
-    {
-      "key": "res",
-      "name": "המילואימניקים והכלכלית",
-      "leader": "יועז הנדל",
-      "bloc": "other",
-      "color": "#8a8f98",
-      "note": "לא התחייב לגוש"
-    },
-    {
-      "key": "joint",
-      "name": "הרשימה המשותפת",
-      "leader": "יוסף ג'בארין",
-      "bloc": "arab",
-      "color": "#c2185b",
-      "note": "חד\"ש, תע\"ל ובל\"ד; עודפים עם רע\"ם"
-    },
-    {
-      "key": "raam",
-      "name": "רע\"ם",
-      "leader": "מנסור עבאס",
-      "bloc": "arab",
-      "color": "#0b7a5a",
-      "note": "עודפים עם הרשימה המשותפת"
-    }
-  ],
-  "blocs": {
-    "coal": {
-      "name": "גוש נתניהו",
-      "color": "#1f5fbf"
-    },
-    "opp": {
-      "name": "גוש האופוזיציה",
-      "color": "#00a3c4"
-    },
-    "arab": {
-      "name": "המפלגות הערביות",
-      "color": "#c2185b"
-    },
-    "other": {
-      "name": "מחוץ לגושים",
-      "color": "#8a8f98"
-    }
+  {
+   "time": "22:00",
+   "title": "סגירת הקלפיות ופרסום מדגמים",
+   "status": "done"
   },
-  "polls": [
-    {
-      "id": "avg",
-      "label": "ממוצע 9 הגופים",
-      "date": "23.10",
-      "source": "https://www.israelielection.org/he/polls",
-      "seats": {
-        "likud": 22.5,
-        "shas": 7.9,
-        "otzma": 7.8,
-        "utj": 7.5,
-        "rz": 6.7,
-        "amcha": 0,
-        "yashar": 21.2,
-        "together": 12.8,
-        "dem": 8.6,
-        "yb": 7.0,
-        "res": 4.0,
-        "joint": 8.4,
-        "raam": 5.6
-      }
-    },
-    {
-      "id": "exit_kan",
-      "label": "מדגם כאן 11 (דודי חסיד, מעודכן)",
-      "date": "27.10 23:16",
-      "source": "https://x.com/IsraelHayomHeb/status/2115190852347961385",
-      "seats": {
-        "likud": 25,
-        "shas": 6,
-        "otzma": 7,
-        "utj": 6,
-        "rz": 6,
-        "amcha": 0,
-        "yashar": 21,
-        "together": 13,
-        "dem": 10,
-        "yb": 8,
-        "res": 0,
-        "joint": 11,
-        "raam": 7
-      }
-    },
-    {
-      "id": "exit_n12",
-      "label": "מדגם חדשות 12 (מעודכן)",
-      "date": "27.10 22:40",
-      "source": "https://x.com/IsraelHayomHeb/status/2115181888331502067",
-      "seats": {
-        "likud": 24,
-        "shas": 8,
-        "otzma": 6,
-        "utj": 6,
-        "rz": 6,
-        "amcha": 0,
-        "yashar": 22,
-        "together": 12,
-        "dem": 10,
-        "yb": 8,
-        "res": 0,
-        "joint": 11,
-        "raam": 7
-      }
-    },
-    {
-      "id": "exit_n13",
-      "label": "מדגם חדשות 13 (המדד, מעודכן)",
-      "date": "28.10 01:04",
-      "source": "https://x.com/IsraelHayomHeb/status/2115218196957364694",
-      "seats": {
-        "likud": 27,
-        "shas": 6,
-        "otzma": 6,
-        "utj": 6,
-        "rz": 6,
-        "amcha": 0,
-        "yashar": 22,
-        "together": 13,
-        "dem": 9,
-        "yb": 7,
-        "res": 0,
-        "joint": 11,
-        "raam": 7
-      }
-    },
-    {
-      "id": "exit_c14",
-      "label": "מדגם חדשות 14",
-      "date": "27.10 22:00",
-      "source": "https://x.com/C14_news/status/2115173495042928867",
-      "seats": {
-        "likud": 30,
-        "shas": 9,
-        "otzma": 7,
-        "utj": 7,
-        "rz": 7,
-        "amcha": 0,
-        "yashar": 19,
-        "together": 11,
-        "dem": 9,
-        "yb": 4,
-        "res": 0,
-        "joint": 10,
-        "raam": 7
-      }
-    },
-    {
-      "id": "exit_i24",
-      "label": "מדגם i24NEWS (דיירקט פולס)",
-      "date": "27.10 22:00",
-      "source": "https://x.com/i24NEWS_HE/status/2115177775153778792",
-      "seats": {
-        "likud": 27,
-        "shas": 8,
-        "otzma": 7,
-        "utj": 7,
-        "rz": 6,
-        "amcha": 0,
-        "yashar": 20,
-        "together": 15,
-        "dem": 9,
-        "yb": 5,
-        "res": 0,
-        "joint": 9,
-        "raam": 7
-      }
-    },
-    {
-      "id": "kan",
-      "label": "כאן 11",
-      "date": "23.10",
-      "source": "https://www.kan.org.il/content/kan-news/politic/1112122/",
-      "seats": {
-        "likud": 20,
-        "shas": 7,
-        "otzma": 8,
-        "utj": 8,
-        "rz": 7,
-        "amcha": 0,
-        "yashar": 22,
-        "together": 14,
-        "dem": 8,
-        "yb": 8,
-        "res": 4,
-        "joint": 9,
-        "raam": 5
-      }
-    },
-    {
-      "id": "c12",
-      "label": "חדשות 12 / מדגם",
-      "date": "23.10",
-      "source": "https://www.mako.co.il/news-israel-elections/2026/Article-8ea5e45ec2961a1027.htm",
-      "seats": {
-        "likud": 21,
-        "shas": 8,
-        "otzma": 8,
-        "utj": 7,
-        "rz": 6,
-        "amcha": 0,
-        "yashar": 23,
-        "together": 15,
-        "dem": 10,
-        "yb": 8,
-        "res": 0,
-        "joint": 9,
-        "raam": 5
-      }
-    },
-    {
-      "id": "c13",
-      "label": "חדשות 13",
-      "date": "23.10",
-      "source": "https://www.zman.co.il/live/735899/",
-      "seats": {
-        "likud": 19,
-        "shas": 7,
-        "otzma": 8,
-        "utj": 8,
-        "rz": 8,
-        "amcha": 0,
-        "yashar": 22,
-        "together": 14,
-        "dem": 10,
-        "yb": 8,
-        "res": 0,
-        "joint": 9,
-        "raam": 7
-      }
-    },
-    {
-      "id": "c14",
-      "label": "חדשות 14 / NEXT DATA",
-      "date": "22.10",
-      "source": "https://www.c14.co.il/article/1750553",
-      "seats": {
-        "likud": 30,
-        "shas": 9,
-        "otzma": 8,
-        "utj": 8,
-        "rz": 7,
-        "amcha": 0,
-        "yashar": 20,
-        "together": 11,
-        "dem": 8,
-        "yb": 5,
-        "res": 0,
-        "joint": 8,
-        "raam": 6
-      }
-    },
-    {
-      "id": "i24",
-      "label": "i24NEWS / דיירקט פולס",
-      "date": "22.10",
-      "source": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-07d162ea",
-      "seats": {
-        "likud": 26,
-        "shas": 8,
-        "otzma": 8,
-        "utj": 7,
-        "rz": 6,
-        "amcha": 4,
-        "yashar": 21,
-        "together": 12,
-        "dem": 8,
-        "yb": 6,
-        "res": 0,
-        "joint": 9,
-        "raam": 5
-      }
-    },
-    {
-      "id": "ih",
-      "label": "ישראל היום / קנטאר",
-      "date": "22.10",
-      "source": "https://www.israelhayom.co.il/news/politics/article/21687549",
-      "seats": {
-        "likud": 21,
-        "shas": 8,
-        "otzma": 8,
-        "utj": 7,
-        "rz": 6,
-        "amcha": 0,
-        "yashar": 23,
-        "together": 14,
-        "dem": 8,
-        "yb": 7,
-        "res": 4,
-        "joint": 9,
-        "raam": 5
-      }
-    },
-    {
-      "id": "maariv",
-      "label": "מעריב / לזר",
-      "date": "22.10",
-      "source": "https://www.maariv.co.il/news/elections-2026/article-1380289",
-      "seats": {
-        "likud": 19,
-        "shas": 8,
-        "otzma": 7,
-        "utj": 7,
-        "rz": 7,
-        "amcha": 0,
-        "yashar": 21,
-        "together": 15,
-        "dem": 10,
-        "yb": 8,
-        "res": 4,
-        "joint": 9,
-        "raam": 5
-      }
-    },
-    {
-      "id": "zman",
-      "label": "זמן ישראל",
-      "date": "22.10",
-      "source": "https://www.zman.co.il/735649/",
-      "seats": {
-        "likud": 21,
-        "shas": 8,
-        "otzma": 8,
-        "utj": 8,
-        "rz": 6,
-        "amcha": 0,
-        "yashar": 23,
-        "together": 11,
-        "dem": 8,
-        "yb": 9,
-        "res": 4,
-        "joint": 9,
-        "raam": 5
-      }
-    },
-    {
-      "id": "walla",
-      "label": "וואלה / לזר",
-      "date": "20.10",
-      "source": "https://www.walla.co.il/news/politics/383958175",
-      "seats": {
-        "likud": 19,
-        "shas": 8,
-        "otzma": 8,
-        "utj": 7,
-        "rz": 6,
-        "amcha": 0,
-        "yashar": 23,
-        "together": 14,
-        "dem": 9,
-        "yb": 8,
-        "res": 4,
-        "joint": 8,
-        "raam": 6
-      }
-    }
-  ],
-  "pollAverageNote": "ממוצע 9 הגופים (israelielection.org, 23.10): גוש נתניהו 52.4, גוש האופוזיציה 49.6, המפלגות הערביות 14.0, מחוץ לגושים 4.0. הטווח בסקרים האחרונים: גוש נתניהו 48 עד 62, גוש האופוזיציה 44 עד 56.",
-  "blocTrend": {
-    "source": "israelielection.org",
-    "labels": [
-      "9.9",
-      "23.9",
-      "1.10",
-      "11.10",
-      "18.10",
-      "23.10"
-    ],
-    "coal": [
-      55.4,
-      53.1,
-      53.8,
-      55.0,
-      50.9,
-      52.4
-    ],
-    "opp": [
-      52.3,
-      50.7,
-      49.7,
-      48.3,
-      50.7,
-      49.6
-    ]
+  {
+   "time": "ליל הבחירות",
+   "title": "תוצאות אמת מהקלפיות: הספירה נמשכת; לפי ועדת הבחירות (כפי שדווח ב-i24NEWS ובערוץ 14 ב-01:41–01:42) נספרו 29,379 קולות ב-128 קלפיות בלבד, שיעור זניח מכלל המצביעים. בינתיים: הליכוד 26.44%, ישר! 18.80%, ביחד 8.74%",
+   "status": "pending"
   },
-  "exitPolls": [
-    {
-      "outlet": "כאן 11 (דודי חסיד; עדכון ~23:16; ב-22:00: ביחד 14, המשותפת 10)",
-      "seats": {
-        "likud": 25,
-        "shas": 6,
-        "otzma": 7,
-        "utj": 6,
-        "rz": 6,
-        "amcha": 0,
-        "yashar": 21,
-        "together": 13,
-        "dem": 10,
-        "yb": 8,
-        "res": 0,
-        "joint": 11,
-        "raam": 7
-      },
-      "coal": 50,
-      "opp": 52,
-      "arab": 18,
-      "time": "23:16",
-      "source": "https://x.com/IsraelHayomHeb/status/2115190852347961385"
-    },
-    {
-      "outlet": "חדשות 12 (עדכון ~22:40; ב-22:00: הדמוקרטים 9, ישראל ביתנו 9)",
-      "seats": {
-        "likud": 24,
-        "shas": 8,
-        "otzma": 6,
-        "utj": 6,
-        "rz": 6,
-        "amcha": 0,
-        "yashar": 22,
-        "together": 12,
-        "dem": 10,
-        "yb": 8,
-        "res": 0,
-        "joint": 11,
-        "raam": 7
-      },
-      "coal": 50,
-      "opp": 52,
-      "arab": 18,
-      "time": "22:40",
-      "source": "https://x.com/IsraelHayomHeb/status/2115181888331502067"
-    },
-    {
-      "outlet": "חדשות 13 (המדד; עדכון ~01:04; ב-22:50: הליכוד 25, ישר! 23, יהדות התורה 7)",
-      "seats": {
-        "likud": 27,
-        "shas": 6,
-        "otzma": 6,
-        "utj": 6,
-        "rz": 6,
-        "amcha": 0,
-        "yashar": 22,
-        "together": 13,
-        "dem": 9,
-        "yb": 7,
-        "res": 0,
-        "joint": 11,
-        "raam": 7
-      },
-      "coal": 51,
-      "opp": 51,
-      "arab": 18,
-      "time": "01:04",
-      "source": "https://x.com/IsraelHayomHeb/status/2115218196957364694"
-    },
-    {
-      "outlet": "חדשות 14 – עדכון על בסיס תוצאות אמת חלקיות (00:38; ישראל ביתנו מתחת לאחוז החסימה; פירוט מלא לא פורסם בטקסט)",
-      "seats": null,
-      "coal": 62,
-      "opp": null,
-      "arab": null,
-      "time": "00:38",
-      "source": "https://x.com/C14_news/status/2115211687603147037"
-    },
-    {
-      "outlet": "חדשות 14 (22:00)",
-      "seats": {
-        "likud": 30,
-        "shas": 9,
-        "otzma": 7,
-        "utj": 7,
-        "rz": 7,
-        "amcha": 0,
-        "yashar": 19,
-        "together": 11,
-        "dem": 9,
-        "yb": 4,
-        "res": 0,
-        "joint": 10,
-        "raam": 7
-      },
-      "coal": 60,
-      "opp": 43,
-      "arab": 17,
-      "time": "22:00",
-      "source": "https://x.com/C14_news/status/2115173495042928867"
-    },
-    {
-      "outlet": "i24NEWS (דיירקט פולס)",
-      "seats": {
-        "likud": 27,
-        "shas": 8,
-        "otzma": 7,
-        "utj": 7,
-        "rz": 6,
-        "amcha": 0,
-        "yashar": 20,
-        "together": 15,
-        "dem": 9,
-        "yb": 5,
-        "res": 0,
-        "joint": 9,
-        "raam": 7
-      },
-      "coal": 55,
-      "opp": 49,
-      "arab": 16,
-      "time": "22:00",
-      "source": "https://x.com/i24NEWS_HE/status/2115177775153778792"
-    }
-  ],
-  "officialResults": {
-    "pctCounted": null,
-    "seats": null,
-    "source": "https://cdn-votes26.bechirot.gov.il/cityresults?lang=he"
-  },
-  "threshold": [
-    {
-      "name": "ישראל ביתנו (אביגדור ליברמן)",
-      "text": "בחמשת המדגמים של 22:00 מעל אחוז החסימה (4–8 מנדטים); כאן 11 וחדשות 12 בעדכוניהם (22:40–23:16): 8; חדשות 13 בעדכון 01:04: 7. ב-00:38 עדכן ערוץ 14 את המדגם על בסיס תוצאות אמת חלקיות: ישראל ביתנו לא עוברת את אחוז החסימה וגוש נתניהו עולה ל-62. נכון ל-01:00 נספרו רק כ-14 אלף קולות."
-    },
-    {
-      "name": "המילואימניקים והכלכלית (יועז הנדל)",
-      "text": "מתחת לאחוז החסימה בכל חמשת המדגמים (כאן 11, חדשות 12, חדשות 13, חדשות 14, i24NEWS). כאן 11: 2.7%."
-    },
-    {
-      "name": "עמך ישראל (עופר וינטר)",
-      "text": "מתחת לאחוז החסימה בכל חמשת המדגמים. כאן 11: 2.2%. ישראל היום: במטה וינטר הודו בתבוסה."
-    },
-    {
-      "name": "הציבור החרדי (מוטי לייטנר) ונעם",
-      "text": "מתחת לאחוז החסימה במדגמי חדשות 13 וחדשות 14."
-    }
-  ],
-  "news": [
-    {
-      "date": "28.10 01:20",
-      "title": "ישראל היום: איזנקוט בנאום ראשון – \"עשינו היסטוריה, מתחייב לא לגרור את ישראל לבחירות חוזרות\"",
-      "site": "ישראל היום",
-      "url": "https://x.com/IsraelHayomHeb/status/2115222126458282273"
-    },
-    {
-      "date": "28.10 01:19",
-      "title": "ערוץ כנסת 99: 14,386 קולות כשרים נספרו – תוצאות האמת הראשוניות נכון ל-01:00",
-      "site": "ערוץ כנסת",
-      "url": "https://x.com/Knesset99/status/2115221948762353768"
-    },
-    {
-      "date": "28.10 01:18",
-      "title": "ערוץ 14: רק 14 אלף קולות נספרו – ואיזנקוט כבר חוגג ניצחון",
-      "site": "ערוץ 14",
-      "url": "https://x.com/C14_news/status/2115221697498431636"
-    },
-    {
-      "date": "28.10 01:17",
-      "title": "ישראל היום: השר לוין על הפערים בין המדגמים – \"חבר'ה, אני לא פרשן\"",
-      "site": "ישראל היום",
-      "url": "https://x.com/IsraelHayomHeb/status/2115221425741074820"
-    },
-    {
-      "date": "28.10 01:15",
-      "title": "הארץ: בנט – ראשי גוש התיקון מתואמים, נעשה הכול כדי להקים ממשלת משרתים ציונית",
-      "site": "הארץ",
-      "url": "https://x.com/Haaretz/status/2115220848516751528"
-    },
-    {
-      "date": "28.10 01:14",
-      "title": "N12: בנט בתגובה ראשונה – \"ברית המשרתים ניצחה את ברית המשתמטים\"",
-      "site": "N12",
-      "url": "https://x.com/N12News/status/2115220645843734867"
-    },
-    {
-      "date": "28.10 01:06",
-      "title": "ערוץ 14: מוטי לייטנר (הציבור החרדי) – \"תחילתה של דרך פוליטית ארוכה\"",
-      "site": "ערוץ 14",
-      "url": "https://x.com/C14_news/status/2115218536113098758"
-    },
-    {
-      "date": "28.10 01:05",
-      "title": "i24NEWS: לפיד – \"אולי לא תהיה קואליציה רחבה ביום הראשון, נרחיב אותה בהמשך\"",
-      "site": "i24NEWS",
-      "url": "https://x.com/i24NEWS_HE/status/2115218410854572032"
-    },
-    {
-      "date": "28.10 01:04",
-      "title": "ישראל היום: עדכון מדגם חדשות 13 – שוויון 51–51 בין הגושים; הליכוד 27, ישר! 22",
-      "site": "ישראל היום",
-      "url": "https://x.com/IsraelHayomHeb/status/2115218196957364694"
-    },
-    {
-      "date": "28.10 01:03",
-      "title": "ערוץ 14: העדכון של חדשות 13 – הליכוד עולה מ-25 ל-27 מנדטים",
-      "site": "ערוץ 14",
-      "url": "https://x.com/C14_news/status/2115217935526477891"
-    },
-    {
-      "date": "28.10 00:57",
-      "title": "כאן חדשות: בנט – \"נתניהו הפסיד, וממשלת 7 באוקטובר תלך הביתה\"",
-      "site": "כאן חדשות",
-      "url": "https://x.com/kann_news/status/2115216432623702187"
-    },
-    {
-      "date": "28.10 00:51",
-      "title": "ישראל היום: בנט – \"נתניהו הפסיד וממשלת 7 באוקטובר תלך הביתה; אנחנו מתואמים בגוש\"",
-      "site": "ישראל היום",
-      "url": "https://x.com/IsraelHayomHeb/status/2115214871507681306"
-    },
-    {
-      "date": "28.10 00:51",
-      "title": "הארץ: וינטר החל לסמן אשמים – \"נלחמנו מול כל המכונה, אבל לא נירא\"",
-      "site": "הארץ",
-      "url": "https://x.com/Haaretz/status/2115214888943386851"
-    },
-    {
-      "date": "28.10 00:49",
-      "title": "ערוץ 14: סמוטריץ' בנאום ראשון – \"עם ישראל אמר את דברו, הוא רוצה מדיניות של המחנה הלאומי\"",
-      "site": "ערוץ 14",
-      "url": "https://x.com/C14_news/status/2115214372788191501"
-    },
-    {
-      "date": "28.10 00:42",
-      "title": "ynet: \"גוש המשרתים ניצח – ולכן זה הזמן להפר הבטחות\" (טור דעה)",
-      "site": "ynet",
-      "url": "https://x.com/ynetalerts/status/2115212658429313149"
-    },
-    {
-      "date": "28.10 00:38",
-      "title": "ערוץ 14: עדכון המדגם על בסיס תוצאות האמת – ישראל ביתנו לא עוברת את אחוז החסימה, גוש הימין על 62 מנדטים",
-      "site": "ערוץ 14",
-      "url": "https://x.com/C14_news/status/2115211687603147037"
-    },
-    {
-      "date": "28.10 00:37",
-      "title": "ישראל היום: החלה ספירת קולות האמת",
-      "site": "ישראל היום",
-      "url": "https://x.com/IsraelHayomHeb/status/2115211198534701277"
-    },
-    {
-      "date": "28.10 00:30",
-      "title": "ערוץ 14: בן גביר פוסל ישיבה בממשלת אחדות עם איזנקוט – \"רק בקואליציה ימנית\"",
-      "site": "ערוץ 14",
-      "url": "https://x.com/C14_news/status/2115209656264245469"
-    },
-    {
-      "date": "28.10 00:26",
-      "title": "i24NEWS: החל פרסום תוצאות האמת – הליכוד מובילה, הנתונים מתחילים לזרום",
-      "site": "i24NEWS",
-      "url": "https://x.com/i24NEWS_HE/status/2115208643989639563"
-    },
-    {
-      "date": "28.10 00:26",
-      "title": "הארץ: עבאס – \"עשינו הכול בשביל התוצאה הזאת\"; סגלוביץ' – רוצים להיות חלק מהממשלה",
-      "site": "הארץ",
-      "url": "https://x.com/Haaretz/status/2115208652990656616"
-    },
-    {
-      "date": "28.10 00:22",
-      "title": "כאן חדשות: סמוטריץ' – \"מפלגות שלא מגנות את הטבח לא יהיו חלק לגיטימי בפוליטיקה הישראלית\"",
-      "site": "כאן חדשות",
-      "url": "https://x.com/kann_news/status/2115207545006825553"
-    },
-    {
-      "date": "28.10 00:20",
-      "title": "ישראל היום: וינטר אחרי המדגמים – \"עמך ישראל כאן כדי להישאר\"; טוען לקמפיין \"מכוער\" נגד המפלגה",
-      "site": "ישראל היום",
-      "url": "https://x.com/IsraelHayomHeb/status/2115207078683812085"
-    },
-    {
-      "date": "28.10 00:17",
-      "title": "ערוץ 14: פילבר עדכן את מדגם חדשות 14 – מעריך שישראל ביתנו לא תעבור את אחוז החסימה ושגוש הימין עשוי לקבל מנדטים נוספים",
-      "site": "ערוץ 14",
-      "url": "https://x.com/C14_news/status/2115206245523026014"
-    },
-    {
-      "date": "28.10 00:16",
-      "title": "i24NEWS: סמוטריץ' – \"קולות החיילים יעלו אותנו\"; דרעי – \"נצטרך להמתין לתוצאות האמת\"",
-      "site": "i24NEWS",
-      "url": "https://x.com/i24NEWS_HE/status/2115206104372371775"
-    },
-    {
-      "date": "28.10 00:15",
-      "title": "ישראל היום: כנס ש\"ס נדחה עד תוצאות האמת; דרעי – \"יש פערים גדולים במדגמים\"",
-      "site": "ישראל היום",
-      "url": "https://x.com/IsraelHayomHeb/status/2115205894371725772"
-    },
-    {
-      "date": "28.10 00:15",
-      "title": "כאן חדשות: כך סיקרו כלי התקשורת בעולם את תוצאות המדגמים",
-      "site": "כאן חדשות",
-      "url": "https://x.com/kann_news/status/2115205699689214187"
-    },
-    {
-      "date": "28.10 00:14",
-      "title": "N12: בן גביר – \"הערב עוד צעיר\"; מזהיר מפני ממשלת אחדות עם איזנקוט",
-      "site": "N12",
-      "url": "https://x.com/N12News/status/2115205399150276676"
-    },
-    {
-      "date": "28.10 00:13",
-      "title": "ישראל היום: המעטפות הכפולות שעשויות לשנות את התמונה – וכמה מנדטים הן שוות",
-      "site": "ישראל היום",
-      "url": "https://x.com/IsraelHayomHeb/status/2115205146951233579"
-    },
-    {
-      "date": "28.10 00:12",
-      "title": "מעריב: גורם בקמפיין ש\"ס מעריך שתוצאות האמת עשויות להביא את המפלגה ל-10 מנדטים ויותר",
-      "site": "מעריב",
-      "url": "https://x.com/MaarivOnline/status/2115205035764453728"
-    },
-    {
-      "date": "28.10 00:09",
-      "title": "ערוץ 14: במטה הדמוקרטים – \"יאיר גולן חושש מאפשרות של ממשלת אחדות\"",
-      "site": "ערוץ 14",
-      "url": "https://x.com/C14_news/status/2115204200800096389"
-    },
-    {
-      "date": "27.10 23:47",
-      "title": "ynet: ליברמן במטה ישראל ביתנו – הביע ספק שתוצאות המדגמים יתאמו את תוצאות האמת",
-      "site": "ynet",
-      "url": "https://x.com/ynetalerts/status/2115198627983307032"
-    },
-    {
-      "date": "27.10 23:46",
-      "title": "ישראל היום: ליברמן קורא לחברי הליכוד – \"תזיזו את נתניהו וכך נשקם את המחנה הלאומי\"",
-      "site": "ישראל היום",
-      "url": "https://x.com/IsraelHayomHeb/status/2115198471686816105"
-    },
-    {
-      "date": "27.10 23:46",
-      "title": "ערוץ 14: הסוקר שלמה פילבר מעריך כי \"עמך ישראל\" גרפה כ-80 אלף קולות של מצביעי ימין שלא יתורגמו למנדטים",
-      "site": "ערוץ 14",
-      "url": "https://x.com/C14_news/status/2115198356335009860"
-    },
-    {
-      "date": "27.10 23:46",
-      "title": "N12: יאיר גולן – \"הקמת ממשלה חדשה היא משימה ביטחונית דחופה\"",
-      "site": "N12",
-      "url": "https://x.com/N12News/status/2115198376358940827"
-    },
-    {
-      "date": "27.10 23:45",
-      "title": "הארץ: הכדור יעבור להרצוג, וסמכותו להטלת המנדט כמעט אינה מוגבלת",
-      "site": "הארץ",
-      "url": "https://x.com/Haaretz/status/2115198233894916408"
-    },
-    {
-      "date": "27.10 23:44",
-      "title": "i24NEWS: ליברמן – היקף המעטפות הכפולות חריג ועשוי לייצג 14–15 מנדטים; \"את התמונה האמיתית נדע כנראה ביום שישי\"",
-      "site": "i24NEWS",
-      "url": "https://x.com/i24NEWS_HE/status/2115198042500469188"
-    },
-    {
-      "date": "27.10 23:42",
-      "title": "ישראל היום: עופר וינטר אחרי המדגמים – \"עמך ישראל כאן כדי להישאר\"",
-      "site": "ישראל היום",
-      "url": "https://x.com/IsraelHayomHeb/status/2115197487011262583"
-    },
-    {
-      "date": "27.10 23:36",
-      "title": "ישראל היום: אחוז ההצבעה הממוצע במעוזי הליכוד כ-70.56% (65.27% ב-2022); במרכז-שמאל כ-74% (68.13%)",
-      "site": "ישראל היום",
-      "url": "https://x.com/IsraelHayomHeb/status/2115195991943250322"
-    },
-    {
-      "date": "27.10 23:32",
-      "title": "ישראל היום: אחוז החסימה בבחירות הנוכחיות – 186,000 קולות",
-      "site": "ישראל היום",
-      "url": "https://x.com/IsraelHayomHeb/status/2115195007057457383"
-    },
-    {
-      "date": "27.10 23:30",
-      "title": "מעריב: גורמים בקואליציה מבקרים את בן גביר ואת הקמפיין שהוביל",
-      "site": "מעריב",
-      "url": "https://x.com/MaarivOnline/status/2115194508761575693"
-    }
-  ],
-  "sources": {
-    "polls": "כאן 11, חדשות 12 (מדגם), חדשות 13, חדשות 14 (NEXT DATA), i24NEWS (דיירקט פולס), ישראל היום (קנטאר), מעריב (לזר), זמן ישראל, וואלה (לזר). ממוצע וגושים לפי israelielection.org.",
-    "news": "ערוץ 14, ישראל היום, מקור ראשון, ערוץ 7, מעריב, כאן חדשות, N12, ynet, i24NEWS, Times of Israel, The Independent, JFeed, ועדת הבחירות המרכזית, משרד הפנים."
+  {
+   "time": "עד 4.11",
+   "title": "פרסום התוצאות הסופיות ברשומות",
+   "status": "pending"
   }
+ ],
+ "turnout": {
+  "source": "ועדת הבחירות המרכזית",
+  "final2022": 70.63,
+  "final2022Source": "votes26.com",
+  "hours": [
+   {
+    "time": "10:00",
+    "pct2026": 16.68,
+    "pct2022": 15.9
+   },
+   {
+    "time": "12:00",
+    "pct2026": 31.5,
+    "pct2022": 28.4
+   },
+   {
+    "time": "14:00",
+    "pct2026": 44.9,
+    "pct2022": 38.9
+   },
+   {
+    "time": "16:00",
+    "pct2026": 55.7,
+    "pct2022": 47.5
+   },
+   {
+    "time": "18:00",
+    "pct2026": 66.7,
+    "pct2022": 57.7
+   },
+   {
+    "time": "20:00",
+    "pct2026": 74.3,
+    "pct2022": 66.3
+   },
+   {
+    "time": "סופי",
+    "pct2026": 77.7,
+    "pct2022": 70.63
+   }
+  ],
+  "hours2022Source": "gov.il – אחוז ההצבעה המצטבר בחתך שעות, הכנסת ה-25",
+  "finalNote": "אחוז ההצבעה עד סגירת הקלפיות ב-22:00: 77.7% (ועדת הבחירות, כפי שדווח בערוץ 14, מעריב ו-i24NEWS ב-23:10–23:13), עלייה של 7.1 נקודות לעומת 2022."
+ },
+ "parties": [
+  {
+   "key": "likud",
+   "name": "הליכוד",
+   "leader": "בנימין נתניהו",
+   "bloc": "coal",
+   "color": "#1f5fbf",
+   "note": "רץ במיזוג עם תקווה חדשה של גדעון סער"
+  },
+  {
+   "key": "shas",
+   "name": "ש\"ס",
+   "leader": "אריה דרעי",
+   "bloc": "coal",
+   "color": "#111111",
+   "note": "הסכם עודפים עם יהדות התורה"
+  },
+  {
+   "key": "otzma",
+   "name": "עוצמה יהודית",
+   "leader": "איתמר בן גביר",
+   "bloc": "coal",
+   "color": "#e8a200",
+   "note": "ללא הסכם עודפים"
+  },
+  {
+   "key": "utj",
+   "name": "יהדות התורה",
+   "leader": "יצחק גולדקנופף",
+   "bloc": "coal",
+   "color": "#5a5a5a",
+   "note": "הסכם עודפים עם ש\"ס"
+  },
+  {
+   "key": "rz",
+   "name": "הציונות הדתית וזהות",
+   "leader": "בצלאל סמוטריץ'",
+   "bloc": "coal",
+   "color": "#7a4a1f",
+   "note": "עודפים עם הליכוד"
+  },
+  {
+   "key": "amcha",
+   "name": "עמך ישראל",
+   "leader": "עופר וינטר",
+   "bloc": "coal",
+   "color": "#b5651d",
+   "note": "רשימה חדשה; סביב אחוז החסימה"
+  },
+  {
+   "key": "yashar",
+   "name": "ישר!",
+   "leader": "גדי איזנקוט",
+   "bloc": "opp",
+   "color": "#00a3c4",
+   "note": "רשימה חדשה; עודפים עם הדמוקרטים"
+  },
+  {
+   "key": "together",
+   "name": "ביחד",
+   "leader": "נפתלי בנט",
+   "bloc": "opp",
+   "color": "#6a3fbf",
+   "note": "ריצה משותפת של בנט 2026 ויש עתיד"
+  },
+  {
+   "key": "dem",
+   "name": "הדמוקרטים",
+   "leader": "יאיר גולן",
+   "bloc": "opp",
+   "color": "#d6262b",
+   "note": "עודפים עם ישר!"
+  },
+  {
+   "key": "yb",
+   "name": "ישראל ביתנו",
+   "leader": "אביגדור ליברמן",
+   "bloc": "opp",
+   "color": "#2b8a3e",
+   "note": "עודפים עם ביחד"
+  },
+  {
+   "key": "res",
+   "name": "המילואימניקים והכלכלית",
+   "leader": "יועז הנדל",
+   "bloc": "other",
+   "color": "#8a8f98",
+   "note": "לא התחייב לגוש"
+  },
+  {
+   "key": "joint",
+   "name": "הרשימה המשותפת",
+   "leader": "יוסף ג'בארין",
+   "bloc": "arab",
+   "color": "#c2185b",
+   "note": "חד\"ש, תע\"ל ובל\"ד; עודפים עם רע\"ם"
+  },
+  {
+   "key": "raam",
+   "name": "רע\"ם",
+   "leader": "מנסור עבאס",
+   "bloc": "arab",
+   "color": "#0b7a5a",
+   "note": "עודפים עם הרשימה המשותפת"
+  }
+ ],
+ "blocs": {
+  "coal": {
+   "name": "גוש נתניהו",
+   "color": "#1f5fbf"
+  },
+  "opp": {
+   "name": "גוש האופוזיציה",
+   "color": "#00a3c4"
+  },
+  "arab": {
+   "name": "המפלגות הערביות",
+   "color": "#c2185b"
+  },
+  "other": {
+   "name": "מחוץ לגושים",
+   "color": "#8a8f98"
+  }
+ },
+ "polls": [
+  {
+   "id": "avg",
+   "label": "ממוצע 9 הגופים",
+   "date": "23.10",
+   "source": "https://www.israelielection.org/he/polls",
+   "seats": {
+    "likud": 22.5,
+    "shas": 7.9,
+    "otzma": 7.8,
+    "utj": 7.5,
+    "rz": 6.7,
+    "amcha": 0,
+    "yashar": 21.2,
+    "together": 12.8,
+    "dem": 8.6,
+    "yb": 7.0,
+    "res": 4.0,
+    "joint": 8.4,
+    "raam": 5.6
+   }
+  },
+  {
+   "id": "exit_kan",
+   "label": "מדגם כאן 11 (דודי חסיד, מעודכן)",
+   "date": "28.10 01:43",
+   "source": "https://x.com/IsraelHayomHeb/status/2115228228117815643",
+   "seats": {
+    "likud": 27,
+    "shas": 6,
+    "otzma": 6,
+    "utj": 6,
+    "rz": 6,
+    "amcha": 0,
+    "yashar": 21,
+    "together": 12,
+    "dem": 10,
+    "yb": 8,
+    "res": 0,
+    "joint": 11,
+    "raam": 7
+   }
+  },
+  {
+   "id": "exit_n12",
+   "label": "מדגם חדשות 12 (מעודכן)",
+   "date": "27.10 22:40",
+   "source": "https://x.com/IsraelHayomHeb/status/2115181888331502067",
+   "seats": {
+    "likud": 24,
+    "shas": 8,
+    "otzma": 6,
+    "utj": 6,
+    "rz": 6,
+    "amcha": 0,
+    "yashar": 22,
+    "together": 12,
+    "dem": 10,
+    "yb": 8,
+    "res": 0,
+    "joint": 11,
+    "raam": 7
+   }
+  },
+  {
+   "id": "exit_n13",
+   "label": "מדגם חדשות 13 (המדד, מעודכן)",
+   "date": "28.10 01:04",
+   "source": "https://x.com/IsraelHayomHeb/status/2115218196957364694",
+   "seats": {
+    "likud": 27,
+    "shas": 6,
+    "otzma": 6,
+    "utj": 6,
+    "rz": 6,
+    "amcha": 0,
+    "yashar": 22,
+    "together": 13,
+    "dem": 9,
+    "yb": 7,
+    "res": 0,
+    "joint": 11,
+    "raam": 7
+   }
+  },
+  {
+   "id": "exit_c14",
+   "label": "מדגם חדשות 14",
+   "date": "27.10 22:00",
+   "source": "https://x.com/C14_news/status/2115173495042928867",
+   "seats": {
+    "likud": 30,
+    "shas": 9,
+    "otzma": 7,
+    "utj": 7,
+    "rz": 7,
+    "amcha": 0,
+    "yashar": 19,
+    "together": 11,
+    "dem": 9,
+    "yb": 4,
+    "res": 0,
+    "joint": 10,
+    "raam": 7
+   }
+  },
+  {
+   "id": "exit_i24",
+   "label": "מדגם i24NEWS (דיירקט פולס)",
+   "date": "27.10 22:00",
+   "source": "https://x.com/i24NEWS_HE/status/2115177775153778792",
+   "seats": {
+    "likud": 27,
+    "shas": 8,
+    "otzma": 7,
+    "utj": 7,
+    "rz": 6,
+    "amcha": 0,
+    "yashar": 20,
+    "together": 15,
+    "dem": 9,
+    "yb": 5,
+    "res": 0,
+    "joint": 9,
+    "raam": 7
+   }
+  },
+  {
+   "id": "kan",
+   "label": "כאן 11",
+   "date": "23.10",
+   "source": "https://www.kan.org.il/content/kan-news/politic/1112122/",
+   "seats": {
+    "likud": 20,
+    "shas": 7,
+    "otzma": 8,
+    "utj": 8,
+    "rz": 7,
+    "amcha": 0,
+    "yashar": 22,
+    "together": 14,
+    "dem": 8,
+    "yb": 8,
+    "res": 4,
+    "joint": 9,
+    "raam": 5
+   }
+  },
+  {
+   "id": "c12",
+   "label": "חדשות 12 / מדגם",
+   "date": "23.10",
+   "source": "https://www.mako.co.il/news-israel-elections/2026/Article-8ea5e45ec2961a1027.htm",
+   "seats": {
+    "likud": 21,
+    "shas": 8,
+    "otzma": 8,
+    "utj": 7,
+    "rz": 6,
+    "amcha": 0,
+    "yashar": 23,
+    "together": 15,
+    "dem": 10,
+    "yb": 8,
+    "res": 0,
+    "joint": 9,
+    "raam": 5
+   }
+  },
+  {
+   "id": "c13",
+   "label": "חדשות 13",
+   "date": "23.10",
+   "source": "https://www.zman.co.il/live/735899/",
+   "seats": {
+    "likud": 19,
+    "shas": 7,
+    "otzma": 8,
+    "utj": 8,
+    "rz": 8,
+    "amcha": 0,
+    "yashar": 22,
+    "together": 14,
+    "dem": 10,
+    "yb": 8,
+    "res": 0,
+    "joint": 9,
+    "raam": 7
+   }
+  },
+  {
+   "id": "c14",
+   "label": "חדשות 14 / NEXT DATA",
+   "date": "22.10",
+   "source": "https://www.c14.co.il/article/1750553",
+   "seats": {
+    "likud": 30,
+    "shas": 9,
+    "otzma": 8,
+    "utj": 8,
+    "rz": 7,
+    "amcha": 0,
+    "yashar": 20,
+    "together": 11,
+    "dem": 8,
+    "yb": 5,
+    "res": 0,
+    "joint": 8,
+    "raam": 6
+   }
+  },
+  {
+   "id": "i24",
+   "label": "i24NEWS / דיירקט פולס",
+   "date": "22.10",
+   "source": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-07d162ea",
+   "seats": {
+    "likud": 26,
+    "shas": 8,
+    "otzma": 8,
+    "utj": 7,
+    "rz": 6,
+    "amcha": 4,
+    "yashar": 21,
+    "together": 12,
+    "dem": 8,
+    "yb": 6,
+    "res": 0,
+    "joint": 9,
+    "raam": 5
+   }
+  },
+  {
+   "id": "ih",
+   "label": "ישראל היום / קנטאר",
+   "date": "22.10",
+   "source": "https://www.israelhayom.co.il/news/politics/article/21687549",
+   "seats": {
+    "likud": 21,
+    "shas": 8,
+    "otzma": 8,
+    "utj": 7,
+    "rz": 6,
+    "amcha": 0,
+    "yashar": 23,
+    "together": 14,
+    "dem": 8,
+    "yb": 7,
+    "res": 4,
+    "joint": 9,
+    "raam": 5
+   }
+  },
+  {
+   "id": "maariv",
+   "label": "מעריב / לזר",
+   "date": "22.10",
+   "source": "https://www.maariv.co.il/news/elections-2026/article-1380289",
+   "seats": {
+    "likud": 19,
+    "shas": 8,
+    "otzma": 7,
+    "utj": 7,
+    "rz": 7,
+    "amcha": 0,
+    "yashar": 21,
+    "together": 15,
+    "dem": 10,
+    "yb": 8,
+    "res": 4,
+    "joint": 9,
+    "raam": 5
+   }
+  },
+  {
+   "id": "zman",
+   "label": "זמן ישראל",
+   "date": "22.10",
+   "source": "https://www.zman.co.il/735649/",
+   "seats": {
+    "likud": 21,
+    "shas": 8,
+    "otzma": 8,
+    "utj": 8,
+    "rz": 6,
+    "amcha": 0,
+    "yashar": 23,
+    "together": 11,
+    "dem": 8,
+    "yb": 9,
+    "res": 4,
+    "joint": 9,
+    "raam": 5
+   }
+  },
+  {
+   "id": "walla",
+   "label": "וואלה / לזר",
+   "date": "20.10",
+   "source": "https://www.walla.co.il/news/politics/383958175",
+   "seats": {
+    "likud": 19,
+    "shas": 8,
+    "otzma": 8,
+    "utj": 7,
+    "rz": 6,
+    "amcha": 0,
+    "yashar": 23,
+    "together": 14,
+    "dem": 9,
+    "yb": 8,
+    "res": 4,
+    "joint": 8,
+    "raam": 6
+   }
+  }
+ ],
+ "pollAverageNote": "ממוצע 9 הגופים (israelielection.org, 23.10): גוש נתניהו 52.4, גוש האופוזיציה 49.6, המפלגות הערביות 14.0, מחוץ לגושים 4.0. הטווח בסקרים האחרונים: גוש נתניהו 48 עד 62, גוש האופוזיציה 44 עד 56.",
+ "blocTrend": {
+  "source": "israelielection.org",
+  "labels": [
+   "9.9",
+   "23.9",
+   "1.10",
+   "11.10",
+   "18.10",
+   "23.10"
+  ],
+  "coal": [
+   55.4,
+   53.1,
+   53.8,
+   55.0,
+   50.9,
+   52.4
+  ],
+  "opp": [
+   52.3,
+   50.7,
+   49.7,
+   48.3,
+   50.7,
+   49.6
+  ]
+ },
+ "exitPolls": [
+  {
+   "outlet": "כאן 11 (דודי חסיד; עדכון ~01:43; ב-23:16: הליכוד 25, ביחד 13, עוצמה יהודית 7)",
+   "seats": {
+    "likud": 27,
+    "shas": 6,
+    "otzma": 6,
+    "utj": 6,
+    "rz": 6,
+    "amcha": 0,
+    "yashar": 21,
+    "together": 12,
+    "dem": 10,
+    "yb": 8,
+    "res": 0,
+    "joint": 11,
+    "raam": 7
+   },
+   "coal": 51,
+   "opp": 51,
+   "arab": 18,
+   "time": "01:43",
+   "source": "https://x.com/IsraelHayomHeb/status/2115228228117815643"
+  },
+  {
+   "outlet": "חדשות 12 (עדכון ~22:40; ב-22:00: הדמוקרטים 9, ישראל ביתנו 9)",
+   "seats": {
+    "likud": 24,
+    "shas": 8,
+    "otzma": 6,
+    "utj": 6,
+    "rz": 6,
+    "amcha": 0,
+    "yashar": 22,
+    "together": 12,
+    "dem": 10,
+    "yb": 8,
+    "res": 0,
+    "joint": 11,
+    "raam": 7
+   },
+   "coal": 50,
+   "opp": 52,
+   "arab": 18,
+   "time": "22:40",
+   "source": "https://x.com/IsraelHayomHeb/status/2115181888331502067"
+  },
+  {
+   "outlet": "חדשות 13 (המדד; עדכון ~01:04; ב-22:50: הליכוד 25, ישר! 23, יהדות התורה 7)",
+   "seats": {
+    "likud": 27,
+    "shas": 6,
+    "otzma": 6,
+    "utj": 6,
+    "rz": 6,
+    "amcha": 0,
+    "yashar": 22,
+    "together": 13,
+    "dem": 9,
+    "yb": 7,
+    "res": 0,
+    "joint": 11,
+    "raam": 7
+   },
+   "coal": 51,
+   "opp": 51,
+   "arab": 18,
+   "time": "01:04",
+   "source": "https://x.com/IsraelHayomHeb/status/2115218196957364694"
+  },
+  {
+   "outlet": "חדשות 14 – עדכון על בסיס תוצאות אמת חלקיות (00:38; ישראל ביתנו מתחת לאחוז החסימה; פירוט מלא לא פורסם בטקסט)",
+   "seats": null,
+   "coal": 62,
+   "opp": null,
+   "arab": null,
+   "time": "00:38",
+   "source": "https://x.com/C14_news/status/2115211687603147037"
+  },
+  {
+   "outlet": "חדשות 14 (22:00)",
+   "seats": {
+    "likud": 30,
+    "shas": 9,
+    "otzma": 7,
+    "utj": 7,
+    "rz": 7,
+    "amcha": 0,
+    "yashar": 19,
+    "together": 11,
+    "dem": 9,
+    "yb": 4,
+    "res": 0,
+    "joint": 10,
+    "raam": 7
+   },
+   "coal": 60,
+   "opp": 43,
+   "arab": 17,
+   "time": "22:00",
+   "source": "https://x.com/C14_news/status/2115173495042928867"
+  },
+  {
+   "outlet": "i24NEWS (דיירקט פולס)",
+   "seats": {
+    "likud": 27,
+    "shas": 8,
+    "otzma": 7,
+    "utj": 7,
+    "rz": 6,
+    "amcha": 0,
+    "yashar": 20,
+    "together": 15,
+    "dem": 9,
+    "yb": 5,
+    "res": 0,
+    "joint": 9,
+    "raam": 7
+   },
+   "coal": 55,
+   "opp": 49,
+   "arab": 16,
+   "time": "22:00",
+   "source": "https://x.com/i24NEWS_HE/status/2115177775153778792"
+  }
+ ],
+ "officialResults": {
+  "pctCounted": null,
+  "seats": null,
+  "source": "https://cdn-votes26.bechirot.gov.il/cityresults?lang=he"
+ },
+ "threshold": [
+  {
+   "name": "ישראל ביתנו (אביגדור ליברמן)",
+   "text": "בחמשת המדגמים של 22:00 מעל אחוז החסימה (4–8 מנדטים); כאן 11 בעדכון 01:43 וחדשות 12 בעדכון 22:40: 8; חדשות 13 בעדכון 01:04: 7. ב-00:38 עדכן ערוץ 14 את המדגם על בסיס תוצאות אמת חלקיות: ישראל ביתנו לא עוברת את אחוז החסימה וגוש נתניהו עולה ל-62. נכון ל-01:41 נספרו רק כ-29 אלף קולות."
+  },
+  {
+   "name": "המילואימניקים והכלכלית (יועז הנדל)",
+   "text": "מתחת לאחוז החסימה בכל חמשת המדגמים (כאן 11, חדשות 12, חדשות 13, חדשות 14, i24NEWS). כאן 11: 2.7%."
+  },
+  {
+   "name": "עמך ישראל (עופר וינטר)",
+   "text": "מתחת לאחוז החסימה בכל חמשת המדגמים. כאן 11: 2.2%. ישראל היום: במטה וינטר הודו בתבוסה."
+  },
+  {
+   "name": "הציבור החרדי (מוטי לייטנר) ונעם",
+   "text": "מתחת לאחוז החסימה במדגמי חדשות 13 וחדשות 14."
+  }
+ ],
+ "news": [
+  {
+   "date": "28.10 01:44",
+   "title": "ישראל היום: עדכון מדגם כאן 11 – הליכוד עולה ל-27, שוויון 51–51 בין הגושים",
+   "site": "ישראל היום",
+   "url": "https://x.com/IsraelHayomHeb/status/2115228228117815643"
+  },
+  {
+   "date": "28.10 01:42",
+   "title": "ערוץ 14: תוצאות האמת ממשיכות לזרום – הליכוד מוביל עם 26.44% מ-29 אלף קולות שנספרו, ישר! אחריו",
+   "site": "ערוץ 14",
+   "url": "https://x.com/C14_news/status/2115227620723904967"
+  },
+  {
+   "date": "28.10 01:41",
+   "title": "i24NEWS: ועדת הבחירות – 128 קלפיות, 29,379 קולות; הליכוד 26.44%, ישר! 18.80%, ביחד 8.74%",
+   "site": "i24NEWS",
+   "url": "https://x.com/i24NEWS_HE/status/2115227533138624983"
+  },
+  {
+   "date": "28.10 01:37",
+   "title": "ישראל היום: השר ברקת – \"לא מציע לחברים מהצד השני לחגוג\"",
+   "site": "ישראל היום",
+   "url": "https://x.com/IsraelHayomHeb/status/2115226482729525723"
+  },
+  {
+   "date": "28.10 01:33",
+   "title": "כאן חדשות: איזנקוט בנאום ממטה ישר! הודה למשפחתו ולבנו גל שנפל בעזה",
+   "site": "כאן חדשות",
+   "url": "https://x.com/kann_news/status/2115225383926689821"
+  },
+  {
+   "date": "28.10 01:32",
+   "title": "ערוץ 14: בועז גולן על נאום איזנקוט – \"עוד לא התחילו להוציא תוצאות אמת\"",
+   "site": "ערוץ 14",
+   "url": "https://x.com/C14_news/status/2115225200962703783"
+  },
+  {
+   "date": "28.10 01:29",
+   "title": "ynet: זינוק בשיעור ההצבעה ביישובים הערביים – המפלגות הערביות על 16–18 מנדטים במדגמים",
+   "site": "ynet",
+   "url": "https://x.com/ynetalerts/status/2115224327494734190"
+  },
+  {
+   "date": "28.10 01:26",
+   "title": "מעריב: איזנקוט – \"תהיה טעות לצאת לבחירות נוספות, אעשה הכל לממש את רצון העם\"",
+   "site": "מעריב",
+   "url": "https://x.com/MaarivOnline/status/2115223611787342241"
+  },
+  {
+   "date": "28.10 01:25",
+   "title": "ערוץ 7: דובר הליכוד תוקף את הסוקרים – \"במשך חודשים ניסו להנדס פה את התודעה\"",
+   "site": "ערוץ 7",
+   "url": "https://x.com/arutz7heb/status/2115223264666509711"
+  },
+  {
+   "date": "28.10 01:22",
+   "title": "i24NEWS: אבי מעוז (נעם) – \"הופעל נגדנו מסע הפחדה ממומן ומשומן\"",
+   "site": "i24NEWS",
+   "url": "https://x.com/i24NEWS_HE/status/2115222675018875352"
+  },
+  {
+   "date": "28.10 01:20",
+   "title": "ישראל היום: איזנקוט בנאום ראשון – \"עשינו היסטוריה, מתחייב לא לגרור את ישראל לבחירות חוזרות\"",
+   "site": "ישראל היום",
+   "url": "https://x.com/IsraelHayomHeb/status/2115222126458282273"
+  },
+  {
+   "date": "28.10 01:19",
+   "title": "ערוץ כנסת 99: 14,386 קולות כשרים נספרו – תוצאות האמת הראשוניות נכון ל-01:00",
+   "site": "ערוץ כנסת",
+   "url": "https://x.com/Knesset99/status/2115221948762353768"
+  },
+  {
+   "date": "28.10 01:18",
+   "title": "ערוץ 14: רק 14 אלף קולות נספרו – ואיזנקוט כבר חוגג ניצחון",
+   "site": "ערוץ 14",
+   "url": "https://x.com/C14_news/status/2115221697498431636"
+  },
+  {
+   "date": "28.10 01:17",
+   "title": "ישראל היום: השר לוין על הפערים בין המדגמים – \"חבר'ה, אני לא פרשן\"",
+   "site": "ישראל היום",
+   "url": "https://x.com/IsraelHayomHeb/status/2115221425741074820"
+  },
+  {
+   "date": "28.10 01:15",
+   "title": "הארץ: בנט – ראשי גוש התיקון מתואמים, נעשה הכול כדי להקים ממשלת משרתים ציונית",
+   "site": "הארץ",
+   "url": "https://x.com/Haaretz/status/2115220848516751528"
+  },
+  {
+   "date": "28.10 01:14",
+   "title": "N12: בנט בתגובה ראשונה – \"ברית המשרתים ניצחה את ברית המשתמטים\"",
+   "site": "N12",
+   "url": "https://x.com/N12News/status/2115220645843734867"
+  },
+  {
+   "date": "28.10 01:06",
+   "title": "ערוץ 14: מוטי לייטנר (הציבור החרדי) – \"תחילתה של דרך פוליטית ארוכה\"",
+   "site": "ערוץ 14",
+   "url": "https://x.com/C14_news/status/2115218536113098758"
+  },
+  {
+   "date": "28.10 01:05",
+   "title": "i24NEWS: לפיד – \"אולי לא תהיה קואליציה רחבה ביום הראשון, נרחיב אותה בהמשך\"",
+   "site": "i24NEWS",
+   "url": "https://x.com/i24NEWS_HE/status/2115218410854572032"
+  },
+  {
+   "date": "28.10 01:04",
+   "title": "ישראל היום: עדכון מדגם חדשות 13 – שוויון 51–51 בין הגושים; הליכוד 27, ישר! 22",
+   "site": "ישראל היום",
+   "url": "https://x.com/IsraelHayomHeb/status/2115218196957364694"
+  },
+  {
+   "date": "28.10 01:03",
+   "title": "ערוץ 14: העדכון של חדשות 13 – הליכוד עולה מ-25 ל-27 מנדטים",
+   "site": "ערוץ 14",
+   "url": "https://x.com/C14_news/status/2115217935526477891"
+  },
+  {
+   "date": "28.10 00:57",
+   "title": "כאן חדשות: בנט – \"נתניהו הפסיד, וממשלת 7 באוקטובר תלך הביתה\"",
+   "site": "כאן חדשות",
+   "url": "https://x.com/kann_news/status/2115216432623702187"
+  },
+  {
+   "date": "28.10 00:51",
+   "title": "ישראל היום: בנט – \"נתניהו הפסיד וממשלת 7 באוקטובר תלך הביתה; אנחנו מתואמים בגוש\"",
+   "site": "ישראל היום",
+   "url": "https://x.com/IsraelHayomHeb/status/2115214871507681306"
+  },
+  {
+   "date": "28.10 00:51",
+   "title": "הארץ: וינטר החל לסמן אשמים – \"נלחמנו מול כל המכונה, אבל לא נירא\"",
+   "site": "הארץ",
+   "url": "https://x.com/Haaretz/status/2115214888943386851"
+  },
+  {
+   "date": "28.10 00:49",
+   "title": "ערוץ 14: סמוטריץ' בנאום ראשון – \"עם ישראל אמר את דברו, הוא רוצה מדיניות של המחנה הלאומי\"",
+   "site": "ערוץ 14",
+   "url": "https://x.com/C14_news/status/2115214372788191501"
+  },
+  {
+   "date": "28.10 00:42",
+   "title": "ynet: \"גוש המשרתים ניצח – ולכן זה הזמן להפר הבטחות\" (טור דעה)",
+   "site": "ynet",
+   "url": "https://x.com/ynetalerts/status/2115212658429313149"
+  },
+  {
+   "date": "28.10 00:38",
+   "title": "ערוץ 14: עדכון המדגם על בסיס תוצאות האמת – ישראל ביתנו לא עוברת את אחוז החסימה, גוש הימין על 62 מנדטים",
+   "site": "ערוץ 14",
+   "url": "https://x.com/C14_news/status/2115211687603147037"
+  },
+  {
+   "date": "28.10 00:37",
+   "title": "ישראל היום: החלה ספירת קולות האמת",
+   "site": "ישראל היום",
+   "url": "https://x.com/IsraelHayomHeb/status/2115211198534701277"
+  },
+  {
+   "date": "28.10 00:30",
+   "title": "ערוץ 14: בן גביר פוסל ישיבה בממשלת אחדות עם איזנקוט – \"רק בקואליציה ימנית\"",
+   "site": "ערוץ 14",
+   "url": "https://x.com/C14_news/status/2115209656264245469"
+  },
+  {
+   "date": "28.10 00:26",
+   "title": "i24NEWS: החל פרסום תוצאות האמת – הליכוד מובילה, הנתונים מתחילים לזרום",
+   "site": "i24NEWS",
+   "url": "https://x.com/i24NEWS_HE/status/2115208643989639563"
+  },
+  {
+   "date": "28.10 00:26",
+   "title": "הארץ: עבאס – \"עשינו הכול בשביל התוצאה הזאת\"; סגלוביץ' – רוצים להיות חלק מהממשלה",
+   "site": "הארץ",
+   "url": "https://x.com/Haaretz/status/2115208652990656616"
+  },
+  {
+   "date": "28.10 00:22",
+   "title": "כאן חדשות: סמוטריץ' – \"מפלגות שלא מגנות את הטבח לא יהיו חלק לגיטימי בפוליטיקה הישראלית\"",
+   "site": "כאן חדשות",
+   "url": "https://x.com/kann_news/status/2115207545006825553"
+  },
+  {
+   "date": "28.10 00:20",
+   "title": "ישראל היום: וינטר אחרי המדגמים – \"עמך ישראל כאן כדי להישאר\"; טוען לקמפיין \"מכוער\" נגד המפלגה",
+   "site": "ישראל היום",
+   "url": "https://x.com/IsraelHayomHeb/status/2115207078683812085"
+  },
+  {
+   "date": "28.10 00:17",
+   "title": "ערוץ 14: פילבר עדכן את מדגם חדשות 14 – מעריך שישראל ביתנו לא תעבור את אחוז החסימה ושגוש הימין עשוי לקבל מנדטים נוספים",
+   "site": "ערוץ 14",
+   "url": "https://x.com/C14_news/status/2115206245523026014"
+  },
+  {
+   "date": "28.10 00:16",
+   "title": "i24NEWS: סמוטריץ' – \"קולות החיילים יעלו אותנו\"; דרעי – \"נצטרך להמתין לתוצאות האמת\"",
+   "site": "i24NEWS",
+   "url": "https://x.com/i24NEWS_HE/status/2115206104372371775"
+  },
+  {
+   "date": "28.10 00:15",
+   "title": "ישראל היום: כנס ש\"ס נדחה עד תוצאות האמת; דרעי – \"יש פערים גדולים במדגמים\"",
+   "site": "ישראל היום",
+   "url": "https://x.com/IsraelHayomHeb/status/2115205894371725772"
+  },
+  {
+   "date": "28.10 00:15",
+   "title": "כאן חדשות: כך סיקרו כלי התקשורת בעולם את תוצאות המדגמים",
+   "site": "כאן חדשות",
+   "url": "https://x.com/kann_news/status/2115205699689214187"
+  },
+  {
+   "date": "28.10 00:14",
+   "title": "N12: בן גביר – \"הערב עוד צעיר\"; מזהיר מפני ממשלת אחדות עם איזנקוט",
+   "site": "N12",
+   "url": "https://x.com/N12News/status/2115205399150276676"
+  },
+  {
+   "date": "28.10 00:13",
+   "title": "ישראל היום: המעטפות הכפולות שעשויות לשנות את התמונה – וכמה מנדטים הן שוות",
+   "site": "ישראל היום",
+   "url": "https://x.com/IsraelHayomHeb/status/2115205146951233579"
+  },
+  {
+   "date": "28.10 00:12",
+   "title": "מעריב: גורם בקמפיין ש\"ס מעריך שתוצאות האמת עשויות להביא את המפלגה ל-10 מנדטים ויותר",
+   "site": "מעריב",
+   "url": "https://x.com/MaarivOnline/status/2115205035764453728"
+  },
+  {
+   "date": "28.10 00:09",
+   "title": "ערוץ 14: במטה הדמוקרטים – \"יאיר גולן חושש מאפשרות של ממשלת אחדות\"",
+   "site": "ערוץ 14",
+   "url": "https://x.com/C14_news/status/2115204200800096389"
+  },
+  {
+   "date": "27.10 23:47",
+   "title": "ynet: ליברמן במטה ישראל ביתנו – הביע ספק שתוצאות המדגמים יתאמו את תוצאות האמת",
+   "site": "ynet",
+   "url": "https://x.com/ynetalerts/status/2115198627983307032"
+  },
+  {
+   "date": "27.10 23:46",
+   "title": "ישראל היום: ליברמן קורא לחברי הליכוד – \"תזיזו את נתניהו וכך נשקם את המחנה הלאומי\"",
+   "site": "ישראל היום",
+   "url": "https://x.com/IsraelHayomHeb/status/2115198471686816105"
+  },
+  {
+   "date": "27.10 23:46",
+   "title": "ערוץ 14: הסוקר שלמה פילבר מעריך כי \"עמך ישראל\" גרפה כ-80 אלף קולות של מצביעי ימין שלא יתורגמו למנדטים",
+   "site": "ערוץ 14",
+   "url": "https://x.com/C14_news/status/2115198356335009860"
+  },
+  {
+   "date": "27.10 23:46",
+   "title": "N12: יאיר גולן – \"הקמת ממשלה חדשה היא משימה ביטחונית דחופה\"",
+   "site": "N12",
+   "url": "https://x.com/N12News/status/2115198376358940827"
+  },
+  {
+   "date": "27.10 23:45",
+   "title": "הארץ: הכדור יעבור להרצוג, וסמכותו להטלת המנדט כמעט אינה מוגבלת",
+   "site": "הארץ",
+   "url": "https://x.com/Haaretz/status/2115198233894916408"
+  },
+  {
+   "date": "27.10 23:44",
+   "title": "i24NEWS: ליברמן – היקף המעטפות הכפולות חריג ועשוי לייצג 14–15 מנדטים; \"את התמונה האמיתית נדע כנראה ביום שישי\"",
+   "site": "i24NEWS",
+   "url": "https://x.com/i24NEWS_HE/status/2115198042500469188"
+  },
+  {
+   "date": "27.10 23:42",
+   "title": "ישראל היום: עופר וינטר אחרי המדגמים – \"עמך ישראל כאן כדי להישאר\"",
+   "site": "ישראל היום",
+   "url": "https://x.com/IsraelHayomHeb/status/2115197487011262583"
+  },
+  {
+   "date": "27.10 23:36",
+   "title": "ישראל היום: אחוז ההצבעה הממוצע במעוזי הליכוד כ-70.56% (65.27% ב-2022); במרכז-שמאל כ-74% (68.13%)",
+   "site": "ישראל היום",
+   "url": "https://x.com/IsraelHayomHeb/status/2115195991943250322"
+  },
+  {
+   "date": "27.10 23:32",
+   "title": "ישראל היום: אחוז החסימה בבחירות הנוכחיות – 186,000 קולות",
+   "site": "ישראל היום",
+   "url": "https://x.com/IsraelHayomHeb/status/2115195007057457383"
+  },
+  {
+   "date": "27.10 23:30",
+   "title": "מעריב: גורמים בקואליציה מבקרים את בן גביר ואת הקמפיין שהוביל",
+   "site": "מעריב",
+   "url": "https://x.com/MaarivOnline/status/2115194508761575693"
+  }
+ ],
+ "sources": {
+  "polls": "כאן 11, חדשות 12 (מדגם), חדשות 13, חדשות 14 (NEXT DATA), i24NEWS (דיירקט פולס), ישראל היום (קנטאר), מעריב (לזר), זמן ישראל, וואלה (לזר). ממוצע וגושים לפי israelielection.org.",
+  "news": "ערוץ 14, ישראל היום, מקור ראשון, ערוץ 7, מעריב, כאן חדשות, N12, ynet, i24NEWS, Times of Israel, The Independent, JFeed, ועדת הבחירות המרכזית, משרד הפנים."
+ }
 }
