@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-27T10:55:00+02:00",
-  "lastUpdatedLabel": "27.10.2026, 10:55 שעון ישראל",
+  "lastUpdated": "2026-10-27T11:25:00+02:00",
+  "lastUpdatedLabel": "27.10.2026, 11:25 שעון ישראל",
   "election": {
     "date": "2026-10-27",
     "dateLabel": "יום שלישי, 27 באוקטובר 2026 (ט\"ז בחשוון תשפ\"ז)",
@@ -47,7 +47,7 @@
     "hours": [
       {
         "time": "10:00",
-        "pct2026": null,
+        "pct2026": 16.68,
         "pct2022": 15.9
       },
       {
@@ -506,6 +506,24 @@
   "news": [
     {
       "date": "27.10",
+      "title": "ועדת הבחירות: שיעור ההצבעה עד 10:00 עומד על 16.68%, יותר מ-1.2 מיליון מצביעים (2022: ‏15.9%)",
+      "site": "ynet",
+      "url": "https://www.ynet.co.il/news/article/s1dhwyrnme"
+    },
+    {
+      "date": "27.10",
+      "title": "16.68% הצביעו עד 10:00, עלייה של 0.78% לעומת 2022",
+      "site": "מעריב",
+      "url": "https://www.maariv.co.il/news/elections-2026/article-1381588"
+    },
+    {
+      "date": "27.10",
+      "title": "ב-12:00 צפויה הצהרה של יו\"ר ועדת הבחירות השופט נעם סולברג וראש השב\"כ דוד זיני",
+      "site": "גלובס",
+      "url": "https://www.globes.co.il/news/article.aspx?did=1001560922#schedule"
+    },
+    {
+      "date": "27.10",
       "title": "תורים ארוכים בצפון תל אביב וביישובים ערביים; בליכוד מפעילים מערך חלופי לאיסוף מידע בעקבות פסיקת בג\"ץ",
       "site": "ערוץ 14",
       "url": "https://www.c14.co.il/timeline/1756723#likud-lines"
@@ -605,132 +623,6 @@
       "title": "בחירות 2026: הקלפיות נפתחו – עדכונים שוטפים מיום הבחירות",
       "site": "וואלה",
       "url": "https://www.walla.co.il/news/politics/383958985"
-    },
-    {
-      "date": "27.10",
-      "title": "מהדורת יום הבחירות: \"ביטחון מעל לכל\" – נתניהו, איזנקוט ובנט",
-      "site": "ישראל היום",
-      "url": "https://digital-edition.israelhayom.co.il/israel-hayom/20261027"
-    },
-    {
-      "date": "27.10",
-      "title": "Election Day in Israel: Polls open – live",
-      "site": "Haaretz",
-      "url": "https://www.haaretz.com/israel-news/elections/2026-10-27/ty-article-live/israelis-ready-to-cast-their-vote-in-an-election-that-could-end-netanyahus-rule/000001a1-7afd-d5cb-a9ab-7ffd495d0000"
-    },
-    {
-      "date": "27.10",
-      "title": "Voters start casting ballots as polling stations open across Israel",
-      "site": "Times of Israel",
-      "url": "https://www.timesofisrael.com/liveblog_entry/voters-start-casting-ballots-as-polling-stations-open-across-israel/"
-    },
-    {
-      "date": "26.10",
-      "title": "מהכותל ועד הקלפיות: כך ייראה יום הבחירות של ראשי המפלגות",
-      "site": "כל רגע",
-      "url": "https://www.kore.co.il/viewArticle/224035"
-    },
-    {
-      "date": "27.10",
-      "title": "ישראל בוחרת: בעוד כשעה ייפתחו הקלפיות ברחבי הארץ",
-      "site": "ערוץ 14",
-      "url": "https://www.c14.co.il/article/1756722"
-    },
-    {
-      "date": "27.10",
-      "title": "הקלפיות נפתחו רשמית: מיליוני ישראלים יוצאים להצביע",
-      "site": "כאן חדשות",
-      "url": "https://www.kan.org.il/content/kan-news/politic/live-1113088/"
-    },
-    {
-      "date": "27.10",
-      "title": "בחירות 2026 יצאו לדרך: הקלפיות ברחבי הארץ נפתחו",
-      "site": "מעריב",
-      "url": "https://www.maariv.co.il/breaking-news/article-1381778"
-    },
-    {
-      "date": "27.10",
-      "title": "בחירות 2026 – עדכונים שוטפים בזמן אמת",
-      "site": "i24NEWS",
-      "url": "https://www.i24news.tv/he/news/israel-elections-2026/artc-eb6130e3"
-    },
-    {
-      "date": "27.10",
-      "title": "ישראל בוחרת: הקלפיות נפתחו, יותר מ-7.3 מיליון בעלי זכות הצבעה",
-      "site": "וואלה",
-      "url": "https://www.walla.co.il/news/breaking-news/383959053"
-    },
-    {
-      "date": "27.10",
-      "title": "Israel elections 2026 live",
-      "site": "The Independent",
-      "url": "https://www.independent.co.uk/news/world/middle-east/israel-elections-2026-live-updates-polls-netanyahu-b3073570.html"
-    },
-    {
-      "date": "26.10",
-      "title": "ישראל הולכת לקלפי: כל מה שצריך לדעת לקראת הבחירות לכנסת ה-26",
-      "site": "ערוץ 7",
-      "url": "https://www.inn.co.il/news/709405"
-    },
-    {
-      "date": "26.10",
-      "title": "יומיים לבחירות, המפלגות פותחות מבערים לריצת הסיום",
-      "site": "מקור ראשון",
-      "url": "https://www.makorrishon.co.il/news/politcal/article/385080"
-    },
-    {
-      "date": "26.10",
-      "title": "Israel votes: 7.3M voters, 12K polling stations",
-      "site": "JFeed",
-      "url": "https://www.jfeed.com/news-israel/tnj0zb"
-    },
-    {
-      "date": "23.10",
-      "title": "הסקר האחרון לפני הבחירות: הקואליציה נחלשת ל-50 מנדטים, בנט מתחזק",
-      "site": "כאן חדשות",
-      "url": "https://www.kan.org.il/content/kan-news/politic/1112122/"
-    },
-    {
-      "date": "23.10",
-      "title": "סקר המנדטים האחרון של מעריב",
-      "site": "מעריב",
-      "url": "https://www.maariv.co.il/breaking-news/article-1380335"
-    },
-    {
-      "date": "23.10",
-      "title": "סקר המנדטים האחרון של חדשות 12 לפני הבחירות",
-      "site": "N12",
-      "url": "https://www.mako.co.il/news-israel-elections/2026/Article-8ea5e45ec2961a1027.htm"
-    },
-    {
-      "date": "22.10",
-      "title": "הסקר האחרון לפני הבחירות: גוש הימין 62, הליכוד 30",
-      "site": "ערוץ 14",
-      "url": "https://www.c14.co.il/article/1750553"
-    },
-    {
-      "date": "22.10",
-      "title": "סקר המנדטים האחרון לפני הבחירות: בנט מזנק, ליברמן נחלש",
-      "site": "ישראל היום",
-      "url": "https://www.israelhayom.co.il/news/politics/article/21687549"
-    },
-    {
-      "date": "22.10",
-      "title": "סקר מנדטים אחרון: וינטר עובר את אחוז החסימה",
-      "site": "i24NEWS",
-      "url": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-07d162ea"
-    },
-    {
-      "date": "23.10",
-      "title": "Final polls before election show both blocs short of majority",
-      "site": "Times of Israel",
-      "url": "https://www.timesofisrael.com/liveblog_entry/final-polls-before-election-show-both-blocs-short-of-majority-small-parties-out-of-knesset/"
-    },
-    {
-      "date": "—",
-      "title": "מדריך בחירות 2026: מה להביא לקלפי ומתי התוצאות",
-      "site": "ynet",
-      "url": "https://www.ynet.co.il/news/elections2026/article/yokra14927061"
     }
   ],
   "sources": {
