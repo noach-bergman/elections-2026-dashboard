@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-27T16:58:00+02:00",
-  "lastUpdatedLabel": "27.10.2026, 16:58 שעון ישראל",
+  "lastUpdated": "2026-10-27T17:30:00+02:00",
+  "lastUpdatedLabel": "27.10.2026, 17:30 שעון ישראל",
   "election": {
     "date": "2026-10-27",
     "dateLabel": "יום שלישי, 27 באוקטובר 2026 (ט\"ז בחשוון תשפ\"ז)",
@@ -62,7 +62,7 @@
       },
       {
         "time": "16:00",
-        "pct2026": null,
+        "pct2026": 55.7,
         "pct2022": 47.5
       },
       {
@@ -504,6 +504,30 @@
     }
   ],
   "news": [
+    {
+      "date": "27.10",
+      "title": "ועדת הבחירות: 55.7% הצביעו עד 16:00 (4,085,075 מצביעים), לעומת 47.5% ב-2022 – הנתון הגבוה ביותר לשעה זו מאז 1973",
+      "site": "ynet",
+      "url": "https://www.ynet.co.il/news/article/sypynnr2zx"
+    },
+    {
+      "date": "27.10",
+      "title": "שיא הצבעה היסטורי; במפלגות הימין מביעים דאגה מדיווחים על הצבעה גבוהה בחברה הערבית ובמעוזי השמאל",
+      "site": "ערוץ 14",
+      "url": "https://www.c14.co.il/article/1759130"
+    },
+    {
+      "date": "27.10",
+      "title": "נתוני 16:00 בערים החרדיות: אלעד 59.0%, מודיעין עילית 58.8%, בני ברק 53.3%, ביתר עילית 52.0%, ירושלים 47.7%",
+      "site": "ישראל היום",
+      "url": "https://www.israelhayom.co.il/news/politics/article/21718643"
+    },
+    {
+      "date": "27.10",
+      "title": "CEC: polling stations will stay open after 10 p.m. for anyone already waiting in line",
+      "site": "Times of Israel",
+      "url": "https://www.timesofisrael.com/liveblog_entry/amid-high-turnout-election-committee-says-polling-stations-will-stay-open-after-10-p-m-if-people-are-waiting-in-line/"
+    },
     {
       "date": "27.10",
       "title": "אלימות קשה בקלפי ברהט: אנשים הוטחו על קירות בתוך בית ספר",
