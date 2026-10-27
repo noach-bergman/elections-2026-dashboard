@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-27T14:53:00+02:00",
-  "lastUpdatedLabel": "27.10.2026, 14:53 שעון ישראל",
+  "lastUpdated": "2026-10-27T15:30:00+02:00",
+  "lastUpdatedLabel": "27.10.2026, 15:30 שעון ישראל",
   "election": {
     "date": "2026-10-27",
     "dateLabel": "יום שלישי, 27 באוקטובר 2026 (ט\"ז בחשוון תשפ\"ז)",
@@ -57,7 +57,7 @@
       },
       {
         "time": "14:00",
-        "pct2026": null,
+        "pct2026": 44.9,
         "pct2022": 38.9
       },
       {
@@ -506,6 +506,36 @@
   "news": [
     {
       "date": "27.10",
+      "title": "ועדת הבחירות: 44.9% הצביעו עד 14:00, לעומת 38.9% ב-2022 – יותר מ-3.29 מיליון מצביעים, שיא מאז 1973",
+      "site": "ערוץ 14",
+      "url": "https://www.c14.co.il/article/1758542"
+    },
+    {
+      "date": "27.10",
+      "title": "\"חצינו את כל השיאים\": מ\"מ מנכ\"ל ועדת הבחירות דין ליבנה על נתוני 14:00",
+      "site": "ynet",
+      "url": "https://www.ynet.co.il/news/article/bkkekx02mg"
+    },
+    {
+      "date": "27.10",
+      "title": "בעקבות התורים: ועדת הבחירות חידדה הנחיות לזירוז ההצבעה; מי שיגיע עד 22:00 יוכל להצביע",
+      "site": "i24NEWS",
+      "url": "https://www.i24news.tv/he/news/israel-elections-2026/artc-eb6130e3#queues"
+    },
+    {
+      "date": "27.10",
+      "title": "צה\"ל: 48% מהחיילים הצביעו עד 13:00 (44.4% ב-2022); במתקני הכליאה 68.1% עד 14:00",
+      "site": "i24NEWS",
+      "url": "https://www.i24news.tv/he/news/israel-elections-2026/artc-eb6130e3#idf-prisons"
+    },
+    {
+      "date": "27.10",
+      "title": "Nearly 45% voted by 2 p.m., highest turnout at that hour in 50 years",
+      "site": "AP",
+      "url": "https://apnews.com/article/israel-election-netanyahu-eisenkot-latest-782c69f4a5389da8073b1c27aafa606f"
+    },
+    {
+      "date": "27.10",
       "title": "ישראל ביתנו עתרה נגד פעילי ש\"ס בכניסה לקלפי; המשטרה בודקת אירועים חריגים במגזר הערבי",
       "site": "ערוץ 14",
       "url": "https://www.c14.co.il/archive/112541#yb-shas-petition"
@@ -593,54 +623,6 @@
       "title": "כ-2.3 מיליון הצביעו עד 12:00; ירושלים 26.8%, תל אביב 28.6%, חיפה 26.6%",
       "site": "גלובס",
       "url": "https://www.globes.co.il/news/article.aspx?did=1001560922#turnout12"
-    },
-    {
-      "date": "27.10",
-      "title": "שיעור ההצבעה עד 12:00 עומד על 31.5%; עלייה של 3.1 נקודות לעומת 2022",
-      "site": "ynet",
-      "url": "https://www.ynet.co.il/news/article/hyiuqbc2zl"
-    },
-    {
-      "date": "27.10",
-      "title": "ועדת הבחירות: נתוני הצבעה ארציים יפורסמו מדי שעתיים עד 23:00; אם יהיו תורים אחרי 22:00 ההצבעה תימשך",
-      "site": "JDN",
-      "url": "https://www.jdn.co.il/news/2755711/"
-    },
-    {
-      "date": "27.10",
-      "title": "השר קרעי פרסם ניתוח של נתוני ועדת הבחירות וקרא למצביעי הימין לצאת לקלפיות",
-      "site": "X (שלמה קרעי)",
-      "url": "https://x.com/shlomo_karhi/status/2115032815985188957"
-    },
-    {
-      "date": "27.10",
-      "title": "ראש השב\"כ דוד זיני בוועדת הבחירות: \"היום מתנהל בצורה טובה\"; אחוז ההצבעה הולך וגובר",
-      "site": "mako / חדשות 12",
-      "url": "https://www.mako.co.il/finances-news/Article-b141e24aebc71a1026.htm#zini"
-    },
-    {
-      "date": "27.10",
-      "title": "ועדת הבחירות: אין אינדיקציות להשחתה שיטתית של פתקי הצבעה; מקרים נקודתיים מטופלים מיד",
-      "site": "גלובס",
-      "url": "https://www.globes.co.il/news/article.aspx?did=1001560922#ballots"
-    },
-    {
-      "date": "27.10",
-      "title": "יוסף חדאד (עמך ישראל) הצביע: \"נהיה הפתעת הבחירות ונעבור בענק\"",
-      "site": "וואלה",
-      "url": "https://www.walla.co.il/news/politics/383958985#haddad"
-    },
-    {
-      "date": "27.10",
-      "title": "ועדת הבחירות: 30% מהמשרתים בצה\"ל הצביעו עד 10:00, לעומת 25.7% באותה שעה ב-2022",
-      "site": "ערוץ 14",
-      "url": "https://www.c14.co.il/timeline/1756723#idf"
-    },
-    {
-      "date": "27.10",
-      "title": "סמוטריץ' על שיעור ההצבעה: \"תוצאה של הצבעה חריגה במגזר הערבי ובמעוזי השמאל\"; קרא לא להצביע למפלגות מתחת לאחוז החסימה",
-      "site": "ערוץ 14",
-      "url": "https://www.c14.co.il/timeline/1756723#smotrich"
     }
   ],
   "sources": {
