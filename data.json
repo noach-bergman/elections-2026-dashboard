@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-27T15:30:00+02:00",
-  "lastUpdatedLabel": "27.10.2026, 15:30 שעון ישראל",
+  "lastUpdated": "2026-10-27T15:58:00+02:00",
+  "lastUpdatedLabel": "27.10.2026, 15:58 שעון ישראל",
   "election": {
     "date": "2026-10-27",
     "dateLabel": "יום שלישי, 27 באוקטובר 2026 (ט\"ז בחשוון תשפ\"ז)",
@@ -504,6 +504,36 @@
     }
   ],
   "news": [
+    {
+      "date": "27.10",
+      "title": "ישראל היום: נתוני 14:00 בערים החרדיות – מודיעין עילית 33.2%, אלעד 32%, בני ברק 28.4%; קצב ההצבעה בחברה הערבית כשלושה רבעים מהקצב הארצי",
+      "site": "ישראל היום",
+      "url": "https://www.israelhayom.co.il/news/politics/article/21716830"
+    },
+    {
+      "date": "27.10",
+      "title": "לראשונה: קלפי צבאית בישיבת ההסדר החרדית \"דרך חיים\"",
+      "site": "ערוץ 7",
+      "url": "https://www.inn.co.il/news/709450"
+    },
+    {
+      "date": "27.10",
+      "title": "ועדת הבחירות: 44.9% עד 14:00 (כ-3,292,059 מצביעים); בבתי הסוהר 68.1%",
+      "site": "מעריב",
+      "url": "https://www.maariv.co.il/news/elections-2026/article-1381588"
+    },
+    {
+      "date": "27.10",
+      "title": "ועדת הבחירות: המידע שהופץ ברשת על מעקב נציגי הליכוד אחר מצביעים באמצעות יישומון אינו נכון; ראש השב\"כ זיני: \"הבחירות תקינות ומפוקחות\"",
+      "site": "ynet",
+      "url": "https://www.ynet.co.il/news/blogs/article/hkbbhw6nzg#cec-app"
+    },
+    {
+      "date": "27.10",
+      "title": "Reports of Arabic ballot shortages at several polling stations; CEC says it is working to resolve the issue",
+      "site": "Haaretz",
+      "url": "https://www.haaretz.com/israel-news/elections/2026-10-27/ty-article-live/israelis-ready-to-cast-their-vote-in-an-election-that-could-end-netanyahus-rule/000001a1-7afd-d5cb-a9ab-7ffd495d0000?liveBlogItemId=733828347"
+    },
     {
       "date": "27.10",
       "title": "ועדת הבחירות: 44.9% הצביעו עד 14:00, לעומת 38.9% ב-2022 – יותר מ-3.29 מיליון מצביעים, שיא מאז 1973",
