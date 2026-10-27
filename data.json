@@ -1,0 +1,108 @@
+{
+  "lastUpdated": "2026-10-27T08:17:00+03:00",
+  "lastUpdatedLabel": "27.10.2026, 08:17 שעון ישראל",
+  "election": {
+    "date": "2026-10-27",
+    "dateLabel": "יום שלישי, 27 באוקטובר 2026 (ט\"ז בחשוון תשפ\"ז)",
+    "pollsOpen": "2026-10-27T07:00:00+03:00",
+    "pollsClose": "2026-10-27T22:00:00+03:00",
+    "eligibleVoters": 7331981,
+    "pollingStations": 12018,
+    "lists": 36,
+    "threshold": "3.25%",
+    "finalResultsBy": "4.11.2026",
+    "notes": "רוב הקלפיות 07:00–22:00; יישובים קטנים, בתי חולים, בתי סוהר ובתי אבות 08:00–20:00. פרסום סקרים חדשים אסור מ-24.10 ועד 22:00 ביום הבחירות."
+  },
+  "schedule": [
+    {"time": "07:00", "title": "פתיחת רוב הקלפיות", "status": "done"},
+    {"time": "11:00–23:00", "title": "אחוז הצבעה ארצי רשמי כל שעתיים", "status": "pending"},
+    {"time": "22:00", "title": "סגירת הקלפיות ופרסום מדגמים", "status": "pending"},
+    {"time": "ליל הבחירות", "title": "תוצאות אמת מהקלפיות", "status": "pending"},
+    {"time": "עד 4.11", "title": "פרסום התוצאות הסופיות ברשומות", "status": "pending"}
+  ],
+  "turnout": {
+    "source": "ועדת הבחירות המרכזית",
+    "final2022": 70.63,
+    "final2022Source": "votes26.com",
+    "hours": [
+      {"time": "11:00", "pct2026": null, "pct2022": null},
+      {"time": "13:00", "pct2026": null, "pct2022": null},
+      {"time": "15:00", "pct2026": null, "pct2022": null},
+      {"time": "17:00", "pct2026": null, "pct2022": null},
+      {"time": "19:00", "pct2026": null, "pct2022": null},
+      {"time": "21:00", "pct2026": null, "pct2022": null},
+      {"time": "סופי", "pct2026": null, "pct2022": 70.63}
+    ]
+  },
+  "parties": [
+    {"key": "likud", "name": "הליכוד", "leader": "בנימין נתניהו", "bloc": "coal", "color": "#1f5fbf", "note": "רץ במיזוג עם תקווה חדשה של גדעון סער"},
+    {"key": "shas", "name": "ש\"ס", "leader": "אריה דרעי", "bloc": "coal", "color": "#111111", "note": "הסכם עודפים עם יהדות התורה"},
+    {"key": "otzma", "name": "עוצמה יהודית", "leader": "איתמר בן גביר", "bloc": "coal", "color": "#e8a200", "note": "ללא הסכם עודפים"},
+    {"key": "utj", "name": "יהדות התורה", "leader": "יצחק גולדקנופף", "bloc": "coal", "color": "#5a5a5a", "note": "הסכם עודפים עם ש\"ס"},
+    {"key": "rz", "name": "הציונות הדתית וזהות", "leader": "בצלאל סמוטריץ'", "bloc": "coal", "color": "#7a4a1f", "note": "עודפים עם הליכוד"},
+    {"key": "amcha", "name": "עמך ישראל", "leader": "עופר וינטר", "bloc": "coal", "color": "#b5651d", "note": "רשימה חדשה; סביב אחוז החסימה"},
+    {"key": "yashar", "name": "ישר!", "leader": "גדי איזנקוט", "bloc": "opp", "color": "#00a3c4", "note": "רשימה חדשה; עודפים עם הדמוקרטים"},
+    {"key": "together", "name": "ביחד", "leader": "נפתלי בנט", "bloc": "opp", "color": "#6a3fbf", "note": "ריצה משותפת של בנט 2026 ויש עתיד"},
+    {"key": "dem", "name": "הדמוקרטים", "leader": "יאיר גולן", "bloc": "opp", "color": "#d6262b", "note": "עודפים עם ישר!"},
+    {"key": "yb", "name": "ישראל ביתנו", "leader": "אביגדור ליברמן", "bloc": "opp", "color": "#2b8a3e", "note": "עודפים עם ביחד"},
+    {"key": "res", "name": "המילואימניקים והכלכלית", "leader": "יועז הנדל", "bloc": "other", "color": "#8a8f98", "note": "לא התחייב לגוש"},
+    {"key": "joint", "name": "הרשימה המשותפת", "leader": "יוסף ג'בארין", "bloc": "arab", "color": "#c2185b", "note": "חד\"ש, תע\"ל ובל\"ד; עודפים עם רע\"ם"},
+    {"key": "raam", "name": "רע\"ם", "leader": "מנסור עבאס", "bloc": "arab", "color": "#0b7a5a", "note": "עודפים עם הרשימה המשותפת"}
+  ],
+  "blocs": {
+    "coal": {"name": "גוש נתניהו", "color": "#1f5fbf"},
+    "opp": {"name": "גוש האופוזיציה", "color": "#00a3c4"},
+    "arab": {"name": "המפלגות הערביות", "color": "#c2185b"},
+    "other": {"name": "מחוץ לגושים", "color": "#8a8f98"}
+  },
+  "polls": [
+    {"id": "avg", "label": "ממוצע 9 הגופים", "date": "23.10", "source": "https://www.israelielection.org/he/polls", "seats": {"likud":22.5,"shas":7.9,"otzma":7.8,"utj":7.5,"rz":6.7,"amcha":0,"yashar":21.2,"together":12.8,"dem":8.6,"yb":7.0,"res":4.0,"joint":8.4,"raam":5.6}},
+    {"id": "kan", "label": "כאן 11", "date": "23.10", "source": "https://www.kan.org.il/content/kan-news/politic/1112122/", "seats": {"likud":20,"shas":7,"otzma":8,"utj":8,"rz":7,"amcha":0,"yashar":22,"together":14,"dem":8,"yb":8,"res":4,"joint":9,"raam":5}},
+    {"id": "c12", "label": "חדשות 12 / מדגם", "date": "23.10", "source": "https://www.mako.co.il/news-israel-elections/2026/Article-8ea5e45ec2961a1027.htm", "seats": {"likud":21,"shas":8,"otzma":8,"utj":7,"rz":6,"amcha":0,"yashar":23,"together":15,"dem":10,"yb":8,"res":0,"joint":9,"raam":5}},
+    {"id": "c13", "label": "חדשות 13", "date": "23.10", "source": "https://www.zman.co.il/live/735899/", "seats": {"likud":19,"shas":7,"otzma":8,"utj":8,"rz":8,"amcha":0,"yashar":22,"together":14,"dem":10,"yb":8,"res":0,"joint":9,"raam":7}},
+    {"id": "c14", "label": "חדשות 14 / NEXT DATA", "date": "22.10", "source": "https://www.c14.co.il/article/1750553", "seats": {"likud":30,"shas":9,"otzma":8,"utj":8,"rz":7,"amcha":0,"yashar":20,"together":11,"dem":8,"yb":5,"res":0,"joint":8,"raam":6}},
+    {"id": "i24", "label": "i24NEWS / דיירקט פולס", "date": "22.10", "source": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-07d162ea", "seats": {"likud":26,"shas":8,"otzma":8,"utj":7,"rz":6,"amcha":4,"yashar":21,"together":12,"dem":8,"yb":6,"res":0,"joint":9,"raam":5}},
+    {"id": "ih", "label": "ישראל היום / קנטאר", "date": "22.10", "source": "https://www.israelhayom.co.il/news/politics/article/21687549", "seats": {"likud":21,"shas":8,"otzma":8,"utj":7,"rz":6,"amcha":0,"yashar":23,"together":14,"dem":8,"yb":7,"res":4,"joint":9,"raam":5}},
+    {"id": "maariv", "label": "מעריב / לזר", "date": "22.10", "source": "https://www.maariv.co.il/news/elections-2026/article-1380289", "seats": {"likud":19,"shas":8,"otzma":7,"utj":7,"rz":7,"amcha":0,"yashar":21,"together":15,"dem":10,"yb":8,"res":4,"joint":9,"raam":5}},
+    {"id": "zman", "label": "זמן ישראל", "date": "22.10", "source": "https://www.zman.co.il/735649/", "seats": {"likud":21,"shas":8,"otzma":8,"utj":8,"rz":6,"amcha":0,"yashar":23,"together":11,"dem":8,"yb":9,"res":4,"joint":9,"raam":5}},
+    {"id": "walla", "label": "וואלה / לזר", "date": "20.10", "source": "https://www.walla.co.il/news/politics/383958175", "seats": {"likud":19,"shas":8,"otzma":8,"utj":7,"rz":6,"amcha":0,"yashar":23,"together":14,"dem":9,"yb":8,"res":4,"joint":8,"raam":6}}
+  ],
+  "pollAverageNote": "ממוצע 9 הגופים (israelielection.org, 23.10): גוש נתניהו 52.4, גוש האופוזיציה 49.6, המפלגות הערביות 14.0, מחוץ לגושים 4.0. הטווח בסקרים האחרונים: גוש נתניהו 48 עד 62, גוש האופוזיציה 44 עד 56.",
+  "blocTrend": {
+    "source": "israelielection.org",
+    "labels": ["9.9","23.9","1.10","11.10","18.10","23.10"],
+    "coal": [55.4,53.1,53.8,55.0,50.9,52.4],
+    "opp": [52.3,50.7,49.7,48.3,50.7,49.6]
+  },
+  "exitPolls": [
+    {"outlet": "כאן 11", "seats": null, "coal": null, "opp": null, "arab": null},
+    {"outlet": "חדשות 12", "seats": null, "coal": null, "opp": null, "arab": null},
+    {"outlet": "חדשות 13", "seats": null, "coal": null, "opp": null, "arab": null},
+    {"outlet": "חדשות 14", "seats": null, "coal": null, "opp": null, "arab": null},
+    {"outlet": "i24NEWS", "seats": null, "coal": null, "opp": null, "arab": null}
+  ],
+  "officialResults": {"pctCounted": null, "seats": null, "source": "https://cdn-votes26.bechirot.gov.il/cityresults?lang=he"},
+  "threshold": [
+    {"name": "המילואימניקים והכלכלית (יועז הנדל)", "text": "עוברת ב-5 מתוך 9 הסקרים האחרונים (4 מנדטים כשעוברת). חדשות 14: 1.9%; i24NEWS: 2.2%; חדשות 13: 3.0%; כאן 11: 4 מנדטים."},
+    {"name": "עמך ישראל (עופר וינטר)", "text": "i24NEWS (22.10): 4 מנדטים. חדשות 14: 1.5%; כאן 11: 2.9%; חדשות 13: 3.1%."},
+    {"name": "הציבור החרדי (מוטי לייטנר)", "text": "מתחת לאחוז החסימה בסקרי חדשות 12, חדשות 13, כאן 11 וחדשות 14 (0.3%)."}
+  ],
+  "news": [
+    {"date": "27.10", "title": "Israel elections 2026 live", "site": "The Independent", "url": "https://www.independent.co.uk/news/world/middle-east/israel-elections-2026-live-updates-polls-netanyahu-b3073570.html"},
+    {"date": "26.10", "title": "ישראל הולכת לקלפי: כל מה שצריך לדעת לקראת הבחירות לכנסת ה-26", "site": "ערוץ 7", "url": "https://www.inn.co.il/news/709405"},
+    {"date": "26.10", "title": "יומיים לבחירות, המפלגות פותחות מבערים לריצת הסיום", "site": "מקור ראשון", "url": "https://www.makorrishon.co.il/news/politcal/article/385080"},
+    {"date": "26.10", "title": "Israel votes: 7.3M voters, 12K polling stations", "site": "JFeed", "url": "https://www.jfeed.com/news-israel/tnj0zb"},
+    {"date": "23.10", "title": "הסקר האחרון לפני הבחירות: הקואליציה נחלשת ל-50 מנדטים, בנט מתחזק", "site": "כאן חדשות", "url": "https://www.kan.org.il/content/kan-news/politic/1112122/"},
+    {"date": "23.10", "title": "סקר המנדטים האחרון של מעריב", "site": "מעריב", "url": "https://www.maariv.co.il/breaking-news/article-1380335"},
+    {"date": "23.10", "title": "סקר המנדטים האחרון של חדשות 12 לפני הבחירות", "site": "N12", "url": "https://www.mako.co.il/news-israel-elections/2026/Article-8ea5e45ec2961a1027.htm"},
+    {"date": "22.10", "title": "הסקר האחרון לפני הבחירות: גוש הימין 62, הליכוד 30", "site": "ערוץ 14", "url": "https://www.c14.co.il/article/1750553"},
+    {"date": "22.10", "title": "סקר המנדטים האחרון לפני הבחירות: בנט מזנק, ליברמן נחלש", "site": "ישראל היום", "url": "https://www.israelhayom.co.il/news/politics/article/21687549"},
+    {"date": "22.10", "title": "סקר מנדטים אחרון: וינטר עובר את אחוז החסימה", "site": "i24NEWS", "url": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-07d162ea"},
+    {"date": "23.10", "title": "Final polls before election show both blocs short of majority", "site": "Times of Israel", "url": "https://www.timesofisrael.com/liveblog_entry/final-polls-before-election-show-both-blocs-short-of-majority-small-parties-out-of-knesset/"},
+    {"date": "—", "title": "מדריך בחירות 2026: מה להביא לקלפי ומתי התוצאות", "site": "ynet", "url": "https://www.ynet.co.il/news/elections2026/article/yokra14927061"}
+  ],
+  "sources": {
+    "polls": "כאן 11, חדשות 12 (מדגם), חדשות 13, חדשות 14 (NEXT DATA), i24NEWS (דיירקט פולס), ישראל היום (קנטאר), מעריב (לזר), זמן ישראל, וואלה (לזר). ממוצע וגושים לפי israelielection.org.",
+    "news": "ערוץ 14, ישראל היום, מקור ראשון, ערוץ 7, מעריב, כאן חדשות, N12, ynet, i24NEWS, Times of Israel, The Independent, JFeed, ועדת הבחירות המרכזית, משרד הפנים."
+  }
+}

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>בחירות 2026 לכנסת ה-26 · דשבורד יום הבחירות</title>
+<meta name="description" content="דשבורד בלתי רשמי ליום הבחירות לכנסת ה-26: אחוזי הצבעה, מדגמים, תוצאות וסקרים אחרונים מכל הגופים.">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+:root{--bg:#f4f6fb;--card:#fff;--ink:#16181d;--mute:#5d6470;--line:#e3e7ef;--accent:#3b5bdb;--ok:#2b8a3e;--wait:#c77700}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1115;--card:#181b22;--ink:#eef1f6;--mute:#9aa3b2;--line:#2a2f3a}}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,"Segoe UI","Noto Sans Hebrew",Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
+header{background:linear-gradient(135deg,#1f5fbf,#6a3fbf 45%,#00a3c4);color:#fff;padding:22px 16px 26px}
+header h1{margin:0 0 6px;font-size:1.45rem}header p{margin:0;opacity:.92;font-size:.95rem}
+.upd{display:inline-block;margin-top:10px;background:rgba(255,255,255,.18);padding:4px 10px;border-radius:999px;font-size:.85rem}
+main{max-width:1100px;margin:0 auto;padding:14px}
+section{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin:14px 0}
+h2{font-size:1.15rem;margin:0 0 12px}
+.grid{display:grid;gap:10px;grid-template-columns:repeat(2,1fr)}@media(min-width:760px){.grid{grid-template-columns:repeat(4,1fr)}}
+.kpi{border-radius:12px;padding:12px;color:#fff}.kpi b{display:block;font-size:1.4rem}.kpi span{font-size:.85rem;opacity:.95}
+.k1{background:#1f5fbf}.k2{background:#6a3fbf}.k3{background:#00a3c4}.k4{background:#c2185b}
+ul.sched{list-style:none;padding:0;margin:12px 0 0}ul.sched li{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:8px 0;border-bottom:1px solid var(--line)}
+.t{font-weight:700;min-width:92px}.pill{font-size:.78rem;padding:2px 8px;border-radius:999px;background:#fff3e0;color:var(--wait)}.pill.ok{background:#e6f4ea;color:var(--ok)}
+.tbl{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.9rem}th,td{padding:7px 8px;border-bottom:1px solid var(--line);text-align:center;white-space:nowrap}th:first-child,td:first-child{text-align:right;position:sticky;right:0;background:var(--card)}
+th{color:var(--mute);font-weight:600}.wait{color:var(--wait);font-weight:600}
+.gauge{margin:8px 0 14px}.gl{display:flex;justify-content:space-between;font-size:.9rem;margin-bottom:4px}.gb{position:relative;height:18px;background:var(--line);border-radius:9px;overflow:hidden}.gf{height:100%;border-radius:9px}.g61{position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--ink)}
+.seats{display:grid;grid-template-columns:repeat(20,1fr);gap:3px;margin-top:12px}.seat{aspect-ratio:1;border-radius:4px}.seat.m{outline:2px solid var(--ink)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:.82rem;margin-top:10px}.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-left:5px}
+select{font:inherit;padding:8px 10px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);max-width:100%}
+.chart{position:relative;height:340px}.chart.s{height:260px}
+.news a{display:block;padding:10px 0;border-bottom:1px solid var(--line);color:var(--ink);text-decoration:none}.news a:hover b{text-decoration:underline}.news small{color:var(--mute)}
+.note{color:var(--mute);font-size:.88rem}.thr div{padding:8px 0;border-bottom:1px solid var(--line)}
+footer{text-align:center;color:var(--mute);font-size:.82rem;padding:20px 12px 40px}
+</style>
+</head>
+<body>
+<header>
+  <h1>בחירות לכנסת ה-26 · יום הבחירות</h1>
+  <p id="dateLabel"></p>
+  <span class="upd">עודכן לאחרונה: <span id="upd"></span></span>
+</header>
+<main>
+  <section><h2>סטטוס יום הבחירות</h2><div class="grid" id="kpis"></div><ul class="sched" id="sched"></ul><p class="note" id="enote"></p></section>
+  <section><h2>אחוז הצבעה לפי שעה, מול 2022</h2><div class="tbl"><table id="turnout"></table></div><p class="note" id="tnote"></p></section>
+  <section><h2>מדגמים ותוצאות אמת</h2><div class="tbl"><table id="exit"></table></div><p class="note">מדגמים מותר לפרסם מ-22:00 שעון ישראל; תוצאות האמת מתעדכנות במהלך הלילה. עד אז, הסקרים האחרונים של כל הגופים הם קו הבסיס.</p></section>
+  <section><h2>קו הבסיס: הגושים מול 61</h2>
+    <label>בחרו סקר: <select id="pollSel"></select></label>
+    <div id="gauges" class="gauge"></div>
+    <div class="chart"><canvas id="partyChart"></canvas></div>
+    <div id="seats" class="seats"></div><div id="legend" class="legend"></div>
+    <p class="note" id="seatNote"></p>
+  </section>
+  <section><h2>השוואת כל הסוקרים</h2><div class="tbl"><table id="polls"></table></div><p class="note" id="avgNote"></p></section>
+  <section><h2>מגמה: הגושים בממוצע הסקרים</h2><div class="chart s"><canvas id="trend"></canvas></div><p class="note">מקור: israelielection.org</p></section>
+  <section><h2>המפלגות וראשיהן</h2><div class="tbl"><table id="parties"></table></div><p class="note">כחול לבן ואח"י פרשו מהמרוץ. השיוך לגושים לפי פתק 2026 ואינו הסכם קואליציוני.</p></section>
+  <section><h2>על סף אחוז החסימה</h2><div class="thr" id="thr"></div></section>
+  <section><h2>עדכונים אחרונים</h2><div class="news" id="news"></div></section>
+  <section><h2>מקורות</h2><p id="srcPolls"></p><p id="srcNews"></p></section>
+</main>
+<footer>דשבורד עצמאי ובלתי רשמי. כל המספרים מצוטטים ממקורותיהם; התוצאות הרשמיות רק מוועדת הבחירות המרכזית.</footer>
+<script>
+const $=id=>document.getElementById(id);const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt=n=>Number.isInteger(n)?String(n):n.toFixed(1);
+let D,chart;
+fetch('data.json?t='+Date.now()).then(r=>r.json()).then(d=>{D=d;render()});
+function blocs(seats){const t={coal:0,opp:0,arab:0,other:0};D.parties.forEach(p=>t[p.bloc]+=seats[p.key]||0);return t}
+function render(){
+ const e=D.election;$('dateLabel').textContent=e.dateLabel;$('upd').textContent=D.lastUpdatedLabel;$('enote').textContent=e.notes;
+ $('kpis').innerHTML=[[e.eligibleVoters.toLocaleString('he-IL'),'בעלי זכות בחירה','k1'],[e.pollingStations.toLocaleString('he-IL'),'קלפיות','k2'],[e.lists,'רשימות במרוץ','k3'],[e.threshold,'אחוז החסימה','k4']].map(k=>`<div class="kpi ${k[2]}"><b>${k[0]}</b><span>${k[1]}</span></div>`).join('');
+ $('sched').innerHTML=D.schedule.map(s=>`<li><span class="t">${esc(s.time)}</span><span>${esc(s.title)}</span><span class="pill ${s.status==='done'?'ok':''}">${s.status==='done'?'התחיל':'ממתין לנתונים'}</span></li>`).join('');
+ const W='<span class="wait">ממתין לנתונים</span>';
+ $('turnout').innerHTML='<tr><th>שעה</th><th>2026</th><th>2022 (אותה שעה)</th></tr>'+D.turnout.hours.map(h=>`<tr><td>${h.time}</td><td>${h.pct2026==null?W:h.pct2026+'%'}</td><td>${h.pct2022==null?'יעודכן':h.pct2022+'%'}</td></tr>`).join('');
+ $('tnote').textContent=`מקור: ${D.turnout.source}. אחוז ההצבעה הסופי ב-2022: ${D.turnout.final2022}% (${D.turnout.final2022Source}).`;
+ const r=D.officialResults;
+ $('exit').innerHTML='<tr><th>גוף</th><th>גוש נתניהו</th><th>גוש האופוזיציה</th><th>ערביות</th><th>סטטוס</th></tr>'+D.exitPolls.map(x=>`<tr><td>${esc(x.outlet)}</td><td>${x.coal??'—'}</td><td>${x.opp??'—'}</td><td>${x.arab??'—'}</td><td>${x.coal==null?W:'פורסם'}</td></tr>`).join('')+
+  (()=>{if(!r.seats)return `<tr><td>תוצאות אמת (ועדת הבחירות)</td><td>—</td><td>—</td><td>—</td><td>${W}</td></tr>`;const t=blocs(r.seats);return `<tr><td>תוצאות אמת · נספרו ${r.pctCounted}%</td><td>${t.coal}</td><td>${t.opp}</td><td>${t.arab}</td><td>חלקי</td></tr>`})();
+ const sel=$('pollSel');sel.innerHTML=D.polls.map(p=>`<option value="${p.id}">${esc(p.label)} · ${p.date}</option>`).join('');sel.onchange=()=>drawPoll(sel.value);drawPoll(D.polls[0].id);
+ const keys=D.parties.map(p=>p.key);
+ $('polls').innerHTML='<tr><th>סקר</th><th>תאריך</th>'+D.parties.map(p=>`<th>${esc(p.name)}</th>`).join('')+'<th>גוש נתניהו</th><th>אופוזיציה</th><th>ערביות</th></tr>'+
+  D.polls.map(p=>{const t=blocs(p.seats);return `<tr><td><a href="${p.source}" target="_blank" rel="noopener">${esc(p.label)}</a></td><td>${p.date}</td>`+keys.map(k=>`<td>${p.seats[k]?fmt(p.seats[k]):'—'}</td>`).join('')+`<td><b>${fmt(t.coal)}</b></td><td><b>${fmt(t.opp)}</b></td><td>${fmt(t.arab)}</td></tr>`}).join('');
+ $('avgNote').textContent=D.pollAverageNote+' "—" = מתחת לאחוז החסימה בסקר.';
+ const T=D.blocTrend;new Chart($('trend'),{type:'line',data:{labels:T.labels,datasets:[{label:D.blocs.coal.name,data:T.coal,borderColor:D.blocs.coal.color,backgroundColor:D.blocs.coal.color,tension:.3},{label:D.blocs.opp.name,data:T.opp,borderColor:D.blocs.opp.color,backgroundColor:D.blocs.opp.color,tension:.3},{label:'רוב: 61',data:T.labels.map(()=>61),borderColor:'#888',borderDash:[5,4],pointRadius:0}]},options:{maintainAspectRatio:false,plugins:{legend:{rtl:true}},scales:{y:{min:44,max:64}}}});
+ $('parties').innerHTML='<tr><th>רשימה</th><th>בראשות</th><th>גוש</th><th>ממוצע</th><th>הערה</th></tr>'+D.parties.map(p=>`<tr><td><i style="display:inline-block;width:10px;height:10px;border-radius:3px;background:${p.color};margin-left:6px"></i>${esc(p.name)}</td><td>${esc(p.leader)}</td><td>${D.blocs[p.bloc].name}</td><td>${D.polls[0].seats[p.key]?fmt(D.polls[0].seats[p.key]):'מתחת'}</td><td style="white-space:normal;text-align:right">${esc(p.note)}</td></tr>`).join('');
+ $('thr').innerHTML=D.threshold.map(t=>`<div><b>${esc(t.name)}</b><br><span class="note">${esc(t.text)}</span></div>`).join('');
+ $('news').innerHTML=D.news.map(n=>`<a href="${n.url}" target="_blank" rel="noopener"><b>${esc(n.title)}</b><br><small>${esc(n.site)} · ${esc(n.date)}</small></a>`).join('');
+ $('srcPolls').textContent='סקרים: '+D.sources.polls;$('srcNews').textContent='חדשות ונתונים: '+D.sources.news;
+}
+function drawPoll(id){
+ const p=D.polls.find(x=>x.id===id),t=blocs(p.seats);
+ $('gauges').innerHTML=['coal','opp','arab','other'].map(b=>`<div class="gl"><span>${D.blocs[b].name}</span><b>${fmt(t[b])}</b></div><div class="gb" style="margin-bottom:10px"><div class="gf" style="width:${t[b]/70*100}%;background:${D.blocs[b].color}"></div><div class="g61" style="right:${61/70*100}%"></div></div>`).join('')+'<div class="note">הקו השחור: 61 מנדטים (רוב).</div>';
+ const ps=D.parties.filter(x=>p.seats[x.key]>0).sort((a,b)=>p.seats[b.key]-p.seats[a.key]);
+ if(chart)chart.destroy();
+ chart=new Chart($('partyChart'),{type:'bar',data:{labels:ps.map(x=>x.name),datasets:[{data:ps.map(x=>p.seats[x.key]),backgroundColor:ps.map(x=>x.color),borderRadius:6}]},options:{indexAxis:'y',maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{position:'right'}}}});
+ const ints=id!=='avg';let html='';
+ if(ints){let k=0;ps.forEach(x=>{for(let i=0;i<p.seats[x.key];i++){html+=`<div class="seat${k===60?' m':''}" style="background:${x.color}" title="${esc(x.name)}"></div>`;k++}})}
+ $('seats').innerHTML=html;
+ $('legend').innerHTML=ints?ps.map(x=>`<span><i style="background:${x.color}"></i>${esc(x.name)} ${p.seats[x.key]}</span>`).join(''):'';
+ $('seatNote').innerHTML=ints?`כל ריבוע הוא מושב; המסומן הוא המושב ה-61. מקור: <a href="${p.source}" target="_blank" rel="noopener">${esc(p.label)}, ${p.date}</a>`:`ממוצע משוקלל, מותאם ל-120. מקור: <a href="${p.source}" target="_blank" rel="noopener">israelielection.org</a>`;
+}
+</script>
+</body>
+</html>
